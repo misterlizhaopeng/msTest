@@ -1,0 +1,32 @@
+server:
+  port: 7901
+spring:
+  application:
+    name: provider-user1
+  cloud:
+    service-registry:
+      auto-registration:
+        enabled: true   # true:表示将服务自动注册到Eureka注册中心，默认为true; false：表示不自动把当前服务注册到注册中心;
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+    service-url:
+      defaultZone: http://user:123@eureka-1:7001/eureka #,http://user:123@eureka-2:7002/eureka,http://user:123@eureka-3:7003/eureka
+  instance:
+    prefer-ip-address: true
+#    lease-renewal-interval-in-seconds: 5
+#    lease-expiration-duration-in-seconds: 10
+management:    #springboot-actuator的安全措施，false表示关闭（false：可以查看actuator的敏感端点，如：beans、env、healty较全的信息）；true表示打开（true为默认值）
+  security:
+    enabled: true
+info:
+ app:
+  name: a-name-@project.groupId@ -@project.artifactId@- @project.version@
+  encoding: e-encoding-@project.build.sourceEncoding@
+  java:
+    source: @java.version@
+    target: @java.version@
+#logging: #日志信息
+#  level:
+#    com.netflix: debug

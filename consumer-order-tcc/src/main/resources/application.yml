@@ -1,0 +1,23 @@
+server:
+  port: 8900
+spring:
+  application:
+    name: consumer-order
+user:
+  url: http://localhost:7900/
+eureka:
+  client:
+    service-url:
+      defaultZone: http://user:123@eureka-1:7001/eureka  #,http://user:123@eureka-2:7002/eureka,http://user:123@eureka-3:7003/eureka
+  instance:
+    prefer-ip-address: true
+    metadata-map:
+      my-metadata: 我的自定义的元数据
+    lease-renewal-interval-in-seconds: 1
+    lease-expiration-duration-in-seconds: 2
+feign:
+  hystrix:
+    enabled: true
+management:  #springboot-actuator的安全措施，false表示关闭（false：可以查看actuator的敏感端点，如：beans、env、healty较全的信息）；true表示打开（true为默认值）
+  security:
+    enabled: true

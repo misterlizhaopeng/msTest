@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>go.com</groupId>
+    <artifactId>msTest</artifactId>
+    <version>1.0</version>
+    <modules>
+        <module>provider-user</module>
+        <module>consumer-order</module>
+        <module>consumer-order-tcc</module>
+        <module>consumer-order-ribbon</module>
+        <module>Eureka</module>
+        <module>consumer-order-test</module>
+        <module>consumer-order-test-ribbon</module>
+        <module>hystrix-dashboard</module>
+        <module>turbine-8930</module>
+        <module>apigateway-zuul</module>
+        <module>consumer-order-config-server01</module>
+        <module>provider-user-redis</module>
+        <module>provider-user-tcc</module>
+        <module>provider-user-tcc2</module>
+        <!--<module>test-spring</module>-->
+    </modules>
+    <packaging>pom</packaging>
+
+    <name>msTest</name>
+    <url>http://www.example.com</url>
+
+    <!--添加springboot依赖-->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.6.RELEASE</version>
+        <!--<version>1.5.6.RELEASE</version>-->
+        <!--2.0.7.RELEASE   -->
+    </parent>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+    </properties>
+
+
+    <!--节点dependencyManagement 的作用：-->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <!--<groupId>org.springfradependencyManagementmework.cloud</groupId>   springframework写错了，搞了半天-->
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Edgware.SR4</version>
+                <!--  <version>Edgware.SR4</version>-->
+                <!-- Finchley.SR2/Finchley.RC1/Edgware.SR4/Edgware.SR5-->
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+            <scope>test</scope>
+        </dependency>
+        <!--1. spring boot 需要的依赖-->
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <!--2.添加插件-->
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>

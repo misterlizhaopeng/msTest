@@ -1,0 +1,23 @@
+server:
+  port: 7003
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+    #      defaultZone: http://locahost:7001/eureka
+    #      defaultZone: http://user:123@localhost:7001/eureka  defaultZone: http://user:123@eureka-1:7001/eureka,http://user:123@eureka-2:7002/eureka
+      defaultZone: http://user:123@192.168.1.102:7001/eureka,http://user:123@192.168.1.102:7002/eureka
+  instance:
+    hostname: eureka-3
+security:
+  basic:
+    enabled: true  #开启安全配置，如果不需要设置，设置为false，注意这个参数必须放在application.yml中，不能放到bootstrap.yml中
+  user:
+    name: user
+    password: 123   #在配置了用户名和密码后，可以把访问地址(eureka.client.service-url.defaultZone)修改为curl风格
+spring:
+  application:
+    name: eureka-high
+  profiles:
+    active: e3

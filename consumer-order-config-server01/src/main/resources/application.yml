@@ -1,0 +1,10 @@
+server:
+  port: 12900
+spring:
+  application:
+    name: config-server01
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/misterlizhaopeng/msConfig.git

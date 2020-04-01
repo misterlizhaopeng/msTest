@@ -1,0 +1,15 @@
+server:
+  port: 7001
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      #      defaultZone: http://locahost:7001/eureka
+      defaultZone: http://user:123@localhost:7001/eureka
+security:
+  basic:
+    enabled: true  #开启安全配置，如果不需要设置，设置为false，注意这个参数必须放在application.yml中，不能放到bootstrap.yml中
+  user:
+    name: user
+    password: 123   #在配置了用户名和密码后，可以把访问地址修改为curl风格
