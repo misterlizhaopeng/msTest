@@ -26,6 +26,7 @@
     </modules>
     <packaging>pom</packaging>
 
+    <!--这是一个没用的注释-->
     <name>msTest</name>
     <url>http://www.example.com</url>
 

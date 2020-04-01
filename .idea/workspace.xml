@@ -2,170 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36110dc8-b4a0-48be-aa4a-c0c12599c20d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apigateway-zuul/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/MyFallbackProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/MyPreZuulFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/MyRouteZuulFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/SecondZuulFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/ThirdZuulFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/ZuulStarter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apigateway-zuul/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-config-server01/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-config-server01/src/main/java/go/com/ConfigServerStarter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-config-server01/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-config-server01/src/test/java/go/com/ConsumerOrderRibbonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-ribbon/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-ribbon/src/main/java/go/com/ConsumerOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-ribbon/src/main/java/go/com/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-ribbon/src/main/java/go/com/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-ribbon/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-ribbon/src/test/java/go/com/ConsumerOrderRibbonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-tcc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-tcc/src/main/java/go/com/ConfigurationLoad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-tcc/src/main/java/go/com/ConsumerOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-tcc/src/main/java/go/com/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-tcc/src/main/java/go/com/controller_feign/OrderControllerFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-tcc/src/main/java/go/com/controller_hystrix/OrderControllerHystrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-tcc/src/main/java/go/com/feign/client/UserClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-tcc/src/main/java/go/com/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-tcc/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-tcc/src/main/resources/spring-mybatis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-tcc/src/test/java/go/com/ConsumerOrderRibbonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-test-ribbon/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-test-ribbon/src/main/java/go/com/ConsumerOrderRibbon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-test-ribbon/src/main/java/go/com/config/ConfigBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-test-ribbon/src/main/java/go/com/controller/ExtRibbonBalanced.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-test-ribbon/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-test-ribbon/src/test/java/go/com/ConsumerOrderRibbonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-test/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-test/src/main/java/go/com/ConfigurationLoad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-test/src/main/java/go/com/ConsumerOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-test/src/main/java/go/com/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-test/src/main/java/go/com/controller_feign/OrderControllerFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-test/src/main/java/go/com/controller_hystrix/OrderControllerHystrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-test/src/main/java/go/com/feign/client/UserClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-test/src/main/java/go/com/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-test/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order-test/src/test/java/go/com/ConsumerOrderRibbonRibbonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order/src/main/java/go/com/ConfigurationLoad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order/src/main/java/go/com/ConsumerOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order/src/main/java/go/com/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order/src/main/java/go/com/controller/org/ExtRibbonBaLanced.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order/src/main/java/go/com/controller_feign/OrderControllerFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order/src/main/java/go/com/controller_hystrix/OrderControllerHystrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order/src/main/java/go/com/feign/client/UserClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order/src/main/java/go/com/feign/client/UserClientFallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order/src/main/java/go/com/feign/client/UserClientFallbackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order/src/main/java/go/com/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-order/src/test/java/go/com/ConsumerOrderRibbonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/src/main/java/go/com/Eureka_A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/src/main/resources/application-e1.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/src/main/resources/application-e2.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/src/main/resources/application-e3.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/src/main/java/go/com/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix-dashboard/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user-redis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user-redis/src/main/java/go/com/ProviderUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user-redis/src/main/java/go/com/conf/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user-redis/src/main/java/go/com/conf/RedisKeyUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user-redis/src/main/java/go/com/conf/RedisService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user-redis/src/main/java/go/com/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user-redis/src/main/java/go/com/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user-redis/src/main/java/go/com/model/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user-redis/src/main/java/go/com/test/Pool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user-redis/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user-tcc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user-tcc/src/main/java/go/com/ProviderConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user-tcc/src/main/java/go/com/ProviderUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user-tcc/src/main/java/go/com/controller/AccountController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user-tcc/src/main/java/go/com/service/IAccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user-tcc/src/main/java/go/com/service/impl/AccountServiceCancel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user-tcc/src/main/java/go/com/service/impl/AccountServiceConfirm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user-tcc/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user-tcc/src/test/java/go/com/ProviderUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user-tcc2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user-tcc2/src/main/java/go/com/ProviderConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user-tcc2/src/main/java/go/com/ProviderUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user-tcc2/src/main/java/go/com/controller/AccountController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user-tcc2/src/main/java/go/com/service/IAccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user-tcc2/src/main/java/go/com/service/impl/AccountServiceCancel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user-tcc2/src/main/java/go/com/service/impl/AccountServiceConfirm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user-tcc2/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user-tcc2/src/test/java/go/com/ProviderUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user/src/main/java/go/com/ProviderUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user/src/main/java/go/com/conf/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user/src/main/java/go/com/conf/MyHealthCheckHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user/src/main/java/go/com/conf/MyHealthIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user/src/main/java/go/com/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user/src/main/java/go/com/model/PersonBeanNameAware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user/src/main/java/go/com/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user/src/main/java/go/com/model/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user/src/main/java/go/com/model/UserInfo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user/src/main/java/go/com/model/UserInfoBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user/src/main/java/go/com/test/AbstractB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user/src/main/java/go/com/test/AbstractClsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user/src/main/java/go/com/test/Algorith.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user/src/main/java/go/com/test/Collecs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user/src/main/java/go/com/test/CollectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user/src/main/java/go/com/test/FileInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user/src/main/java/go/com/test/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user/src/main/java/go/com/test/Pool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user/src/main/java/go/com/test/RecordExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user/src/main/java/go/com/test/RecordExample2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user/src/main/java/go/com/test/SpringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user/src/main/java/go/com/test/StaticClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user/src/main/java/go/com/test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user/src/main/java/go/com/test/Test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user/src/main/java/go/com/test/Test03ThreadPoolExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user/src/main/java/go/com/test/TestNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user/src/main/java/go/com/test/TestTec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user/src/main/java/go/com/test/TestThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user/src/main/java/go/com/test/Thread01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user/src/main/java/go/com/test/UseSemaphore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider-user/src/test/java/go/com/ProviderUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-spring/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-spring/src/main/java/go/beans/Blue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-spring/src/main/java/go/beans/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-spring/src/main/java/go/beans/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-spring/src/main/java/go/beans/RainBow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-spring/src/main/java/go/beans/Red.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-spring/src/main/java/go/beans/Yellow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-spring/src/main/java/go/com/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-spring/src/main/java/go/component/ComponentSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-spring/src/main/java/go/component/GssssComponensssst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-spring/src/main/java/test/inteceptor/DynamicCls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-spring/src/main/java/test/inteceptor/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-spring/src/main/java/test/inteceptor/HelloWorldImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-spring/src/main/java/test/inteceptor/Interceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-spring/src/main/java/test/inteceptor/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-spring/src/main/java/test/inteceptor/MyInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-spring/src/main/java/test/jdkdynamic/DynamicProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-spring/src/main/java/test/jdkdynamic/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-spring/src/main/java/test/jdkdynamic/HelloWorldImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-spring/src/main/java/test/jdkdynamic/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-spring/src/main/java/test/jdklp/CalcInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-spring/src/main/java/test/jdklp/CalcInterfaceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-spring/src/main/java/test/jdklp/LoggingHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-spring/src/main/java/test/jdklp/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-spring/src/main/java/test/jdklp/SecurityHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-spring/src/main/java/test/observer/JDObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-spring/src/main/java/test/observer/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-spring/src/main/java/test/observer/Products.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-spring/src/main/java/test/observer/TBObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turbine-8930/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turbine-8930/src/main/java/go/com/TurbineLaunch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turbine-8930/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -299,8 +136,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            <state relative-caret-position="256">
+              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -387,6 +224,7 @@
       <find>pom</find>
       <find>eurekaClient</find>
       <find>testMethod</find>
+      <find>bytetcc</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -440,12 +278,12 @@
         <option value="$PROJECT_DIR$/consumer-order/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/MyPreZuulFilterThird.java" />
         <option value="$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/MyRouteZuulFilter.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/apigateway-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/AppConfig.java" />
         <option value="$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/SecondZuulFilter.java" />
         <option value="$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/ThirdZuulFilter.java" />
         <option value="$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/MyPreZuulFilter.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -516,7 +354,7 @@
     <property name="ToolWindowAnt Build.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585737656595" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585738155737" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ssmCode" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -862,12 +700,12 @@
       <workItem from="1584876899762" duration="13997000" />
       <workItem from="1585234887849" duration="1174000" />
       <workItem from="1585402654686" duration="38187000" />
-      <workItem from="1585725900375" duration="9918000" />
+      <workItem from="1585725900375" duration="10417000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="255570000" />
+    <option name="totallyTimeSpent" value="256069000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -898,7 +736,7 @@
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.3270142" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.4904762" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2825397" />
       <window_info anchor="bottom" id="Spring" order="9" weight="0.328594" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.14803626" side_tool="true" weight="0.36031747" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.5460318" />
@@ -1513,8 +1351,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        <state relative-caret-position="256">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
         </state>
       </provider>
     </entry>
