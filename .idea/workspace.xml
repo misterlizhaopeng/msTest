@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36110dc8-b4a0-48be-aa4a-c0c12599c20d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -136,8 +137,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+            <state relative-caret-position="182">
+              <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -354,14 +355,14 @@
     <property name="ToolWindowAnt Build.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585738155737" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585738364821" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ssmCode" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -700,12 +701,20 @@
       <workItem from="1584876899762" duration="13997000" />
       <workItem from="1585234887849" duration="1174000" />
       <workItem from="1585402654686" duration="38187000" />
-      <workItem from="1585725900375" duration="10417000" />
+      <workItem from="1585725900375" duration="10605000" />
     </task>
+    <task id="LOCAL-00001" summary="这是一个没用 的注释">
+      <created>1585738227006</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585738227006</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="256069000" />
+    <option name="totallyTimeSpent" value="256257000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -736,13 +745,13 @@
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.3270142" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2825397" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2825397" />
       <window_info anchor="bottom" id="Spring" order="9" weight="0.328594" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.14803626" side_tool="true" weight="0.36031747" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.5460318" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.49924472" weight="0.32539684" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="14" visible="true" weight="0.32857144" />
       <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.85196376" weight="0.44126984" />
       <window_info anchor="bottom" id="Duplicate detector" order="16" weight="0.32961783" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -804,6 +813,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="这是一个没用 的注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="这是一个没用 的注释" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1351,8 +1364,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        <state relative-caret-position="182">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
         </state>
       </provider>
     </entry>
