@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="apigatewayzuul" />
+        <module name="consumer-order" />
+        <module name="consumer-order-config-server01" />
+        <module name="consumer-order-ribbon" />
+        <module name="consumer-order-tcc" />
+        <module name="consumer-order-test" />
+        <module name="consumer-order-test (1)" />
+        <module name="consumerorder" />
+        <module name="Eureka" />
+        <module name="hystrixdashboard" />
+        <module name="provider-user" />
+        <module name="provider-user-redis" />
+        <module name="provider-user-tcc" />
+        <module name="provider-user-tcc2" />
+        <module name="provideruser" />
+        <module name="turbine8930" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="consumer-order (1)" target="1.8" />
+      <module name="consumer-order-01" target="1.8" />
+      <module name="consumer-order-a-b" target="1.8" />
+      <module name="consumer-order-config-server" target="1.8" />
+      <module name="consumer-order-config-server02" target="1.8" />
+      <module name="consumer-order-config-sv" target="1.8" />
+      <module name="consumer-order-config-sv-02" target="1.8" />
+      <module name="consumer-order-config-sv-03" target="1.8" />
+      <module name="consumer-order-config1-server" target="1.8" />
+      <module name="consumer-order-configServer" target="1.8" />
+      <module name="consumer-order-ribbon-t" target="1.8" />
+      <module name="consumer-order-ribbon-test" target="1.8" />
+      <module name="consumer-order-ribbon2" target="1.8" />
+      <module name="consumer-order-test-01" target="1.8" />
+      <module name="consumer-order-tt" target="1.8" />
+      <module name="consumer-order-ttt" target="1.8" />
+      <module name="consumerorderribbon" target="1.8" />
+      <module name="provider-user-mybatis" target="1.8" />
+      <module name="provider-user-tcc (1)" target="1.8" />
+      <module name="testspring" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Eureka" options="" />
+      <module name="apigatewayzuul" options="" />
+      <module name="consumer-order" options="" />
+      <module name="consumer-order-config-server01" options="" />
+      <module name="consumer-order-ribbon" options="" />
+      <module name="consumer-order-tcc" options="" />
+      <module name="consumer-order-test" options="" />
+      <module name="consumer-order-test (1)" options="" />
+      <module name="consumerorder" options="" />
+      <module name="hystrixdashboard" options="" />
+      <module name="msTest" options="-parameters" />
+      <module name="provider-user" options="" />
+      <module name="provider-user-redis" options="" />
+      <module name="provider-user-tcc" options="" />
+      <module name="provider-user-tcc2" options="" />
+      <module name="provideruser" options="" />
+      <module name="testspring" options="" />
+      <module name="turbine8930" options="" />
+    </option>
+  </component>
+</project>
