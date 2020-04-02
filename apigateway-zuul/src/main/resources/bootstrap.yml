@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    config: # 从config-server 上获取当前项目的配置信息
+#      discovery:
+#        enabled: true  # 开启服务发现
+#        serviceId: CONFIG-SERVER   # 配置中心的服务名
+      name: apigateway-zuul # 对应的是{application}部分
+      profile: dev   # 请求的配置信息在远程github上的版本 {profile}
+      label: master  # 远程github上的分支名称，现在表示主分支
+      uri: http://192.168.1.102:5566/
+#spring:
+#  cloud:
+#    config:
+#      name: apigateway-zuul-test
+#      uri: http://192.168.1.102:5566
+#      profile: test
+#      label: master

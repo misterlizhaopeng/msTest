@@ -1,0 +1,2 @@
+encrypt:
+  key: testx  # 设置加密解密的秘钥

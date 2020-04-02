@@ -8,8 +8,10 @@ eureka:
     prefer-ip-address: true
 spring:
   application:
-    name: apigateway-zuul
+    name: apigateway-zuul    # 应用名称
 security:  #访问  zuul的时候用到
+  basic:
+    enabled: true
   user:
     name: user
     password: abc
@@ -19,7 +21,6 @@ zuul:
     provider-user: /user/**
   ignored-services: '*'               #表示禁止所有的代理服务
   prefix: /okgo  #给路由添加前缀
-
 ##  ignored-services: provider-user3,consumer-order   #表示禁止代理指定的服务，多个服务用逗号分割
 
 #zuul:
@@ -35,4 +36,9 @@ zuul:
 #zuul:
 #  prefix: api
 #  strip-prefix: false
+
+#management:  #开启手动刷新，此版本的sc，这个注解我没用一样可以实现手动刷新（github数据变化，config-client 的通过POST请求http://request/refresh 进行刷新一下，@RefreshScope标注的类中的@Value的值就会变化）
+#  security:
+#    enabled: false
+
 #  ignored-services: '*'    #表示禁止代理所有服务

@@ -14,9 +14,9 @@ public class ZuulStarter {
     public static void main(String[] args) {
 
 
-        HashSet<String> hs=new HashSet<>();
-        hs.add("abc");
-        hs.add("bbb");
+//        HashSet<String> hs=new HashSet<>();
+//        hs.add("abc");
+//        hs.add("bbb");
         SpringApplication.run(ZuulStarter.class,args);
 
 
