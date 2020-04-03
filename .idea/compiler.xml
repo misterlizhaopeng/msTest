@@ -26,6 +26,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="apigateway-zuul" target="1.8" />
+      <module name="apigateway-zuul-cloud-bus" target="1.8" />
       <module name="configclient" target="1.8" />
       <module name="consumer-order (1)" target="1.8" />
       <module name="consumer-order-01" target="1.8" />
