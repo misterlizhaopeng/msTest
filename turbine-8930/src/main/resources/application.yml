@@ -8,8 +8,9 @@ eureka:
     prefer-ip-address: true
   client:
     service-url:
-      defaultZone: http://user:123@eureka-1:7001/eureka,http://user:123@eureka-2:7002/eureka,http://user:123@eureka-3:7003/eureka
+      defaultZone: http://user:123@192.168.1.102:7001/eureka,http://user:123@192.168.1.102:7002/eureka,http://user:123@192.168.1.102:7003/eureka
 turbine:
   aggregator:
-    cluster-config: CONSUMER-ORDER   #针对消费者进行监视
-  app-config: CONSUMER-ORDER   #针对消费者进行监视
+    cluster-config: default
+  app-config: consumer-order   # 针对消费者进行监视，多个服务以逗号分割
+  cluster-name-expression: "'default'"

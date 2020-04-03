@@ -1,5 +1,5 @@
 server:
-  port: 7903
+  port: 7901
 spring:
   application:
     name: provider-user  # 一般和项目重名

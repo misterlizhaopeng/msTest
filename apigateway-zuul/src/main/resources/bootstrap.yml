@@ -8,6 +8,11 @@ spring:
       profile: dev   # 请求的配置信息在远程github上的版本 {profile}
       label: master  # 远程github上的分支名称，现在表示主分支
       uri: http://192.168.1.102:5566/
+  rabbitmq:
+    host: 192.168.25.134
+    username: admin
+    password: admin
+    port: 5672
 #spring:
 #  cloud:
 #    config:

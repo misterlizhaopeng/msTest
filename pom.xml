@@ -23,8 +23,8 @@
         <module>provider-user-tcc</module>
         <module>provider-user-tcc2</module>
         <module>config-server</module>
-        <module>config-client</module>
-        <!--<module>test-spring</module>-->
+
+        <!-- <module>config-client</module><module>test-spring</module>-->
     </modules>
     <packaging>pom</packaging>
 

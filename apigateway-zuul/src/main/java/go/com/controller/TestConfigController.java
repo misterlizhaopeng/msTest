@@ -12,9 +12,12 @@ public class TestConfigController {
 
     @Value("${constant}")  // 来自config server
     private  String t;
+    @Value("${b}")
+    private  String b;
+
 
     @GetMapping("/getVal/{id}")
     public String getVal(@PathVariable("id")  String id){
-        return "configServer->"+t+";Input->"+id;
+        return "configServer->"+t+";Input->"+id+";b->"+b;
     }
 }
