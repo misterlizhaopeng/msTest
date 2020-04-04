@@ -26,7 +26,14 @@
         <option value="$PROJECT_DIR$/consumer-order-config-sv-03/pom.xml" />
         <option value="$PROJECT_DIR$/consumer-order-config-sv/pom.xml" />
         <option value="$PROJECT_DIR$/consumer-order-test-01/pom.xml" />
+        <option value="$PROJECT_DIR$/del-test/pom.xml" />
         <option value="$PROJECT_DIR$/provider-user-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/sleuth-zipkin-server02/pom.xml" />
+        <option value="$PROJECT_DIR$/sleuth-zipkin-server03/pom.xml" />
+        <option value="$PROJECT_DIR$/sleuth-zipkin-server04/pom.xml" />
+        <option value="$PROJECT_DIR$/sleuth-zipkin-server05/pom.xml" />
+        <option value="$PROJECT_DIR$/sleuth-zipkin-server06/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin-client-del/pom.xml" />
       </set>
     </option>
   </component>
