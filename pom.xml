@@ -23,6 +23,8 @@
         <module>provider-user-tcc</module>
         <module>provider-user-tcc2</module>
         <module>config-server</module>
+        <module>sleuth-zipkin-server</module>
+        <module>zipkin-client</module>
 
         <!-- <module>config-client</module><module>test-spring</module>-->
     </modules>
@@ -54,11 +56,10 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <!--<groupId>org.springfradependencyManagementmework.cloud</groupId>   springframework写错了，搞了半天-->
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
                 <version>Edgware.SR4</version>
-                <!--  <version>Edgware.SR4 ;Dalston.SR4</version>-->
+                <!--   Edgware.SR4 ;Dalston.SR4;-->
                 <!-- Finchley.SR2/Finchley.RC1/Edgware.SR4/Edgware.SR5-->
                 <type>pom</type>
                 <scope>import</scope>
@@ -83,6 +84,7 @@
             <artifactId>logback-classic</artifactId>
         </dependency>
     </dependencies>
+
 
     <build>
         <!--2.添加插件-->

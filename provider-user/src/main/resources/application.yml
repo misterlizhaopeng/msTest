@@ -1,6 +1,11 @@
 server:
   port: 7901
 spring:
+  zipkin:
+    base-url: http://192.168.1.102:9909  # zipkin server的地址，当前服务可视为zipkin client
+  sleuth:
+    sampler:
+      percentage: 1.0 # 代表采样率，1.0表示100%采样，我的理解是zipkin Server对sleuth进行全部采样，一般优化的很好后不会100%，因为采样会增加系统的开销
   application:
     name: provider-user  # 一般和项目重名
   cloud:
@@ -28,6 +33,6 @@ info:
   java:
     source: @java.version@
     target: @java.version@
-logging: #日志信息
+logging: #日志级别
   level:
-    com.netflix: debug
+    com.netflix: info

@@ -2,8 +2,8 @@ server:
   port: 7001
 eureka:
   client:
-    register-with-eureka: false #避免把自己注册进去
-    fetch-registry: false #避免把自己注册进去
+    register-with-eureka: false # 避免把自己注册进去
+    fetch-registry: false # 避免把自己注册进去
     service-url:
       #      defaultZone: http://locahost:7001/eureka
       #      defaultZone: http://user:123@localhost:7001/eureka

@@ -39,22 +39,22 @@ public class UserController {
 //        System.out.println("equals----->" + (request.getServletContext() == session.getServletContext()));
 
 
-        WebApplicationContext ctx = WebApplicationContextUtils.getWebApplicationContext(request.getServletContext());
+//        WebApplicationContext ctx = WebApplicationContextUtils.getWebApplicationContext(request.getServletContext());
 //        WebApplicationContext ctx = WebApplicationContextUtils.getWebApplicationContext(session.getServletContext());
 //        Map<String, UserInfoBean> maps = ctx.getBeansOfType(UserInfoBean.class);
 
 //        UserInfoBean userInfoBean = ctx.getBean("userInfoBean", UserInfoBean.class);
 //        System.out.println(userInfoBean);
 
-        InstanceInfo eureka = eurekaClient.getNextServerFromEureka("provider-user", false);
-        System.out.println(eureka.getHomePageUrl());
+//        InstanceInfo eureka = eurekaClient.getNextServerFromEureka("provider-user", false);
+//        System.out.println(eureka.getHomePageUrl());
 
 //        System.out.println(port);
 
 //        int i=0;
 //        i=100/i;
 
-        return new User(Integer.parseInt(id), port);
+        return new User(Integer.parseInt(id), "来自pro的："+port);
 //        return new User(Integer.parseInt(id));
     }
 
@@ -82,5 +82,12 @@ public class UserController {
     public void LinkDb(@PathVariable Boolean can) {
         isCanLinkDb = can;
     }
+
+    @RequestMapping(value="/testPro/{id}",method = RequestMethod.GET)
+    public String testpro(@PathVariable("id") String id){
+        return "来自provider的数据："+id+";端口号："+this.port;
+    }
+
+
 
 }

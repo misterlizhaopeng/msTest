@@ -15,8 +15,6 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 public class OrderControllerFeign {
 
-
-
     @Value("${server.port}")
     private String port;
 
@@ -26,8 +24,6 @@ public class OrderControllerFeign {
     @GetMapping("/hello_feign/{id}")
     public User hello_feign(@PathVariable("id") String id)
     {
-
-
         System.out.println("port:"+port);
         return userClient.hello(id);
     }
@@ -36,5 +32,4 @@ public class OrderControllerFeign {
     public User b(User user) {
         return userClient.c(user);
     }
-
 }

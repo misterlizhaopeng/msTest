@@ -1,34 +1,34 @@
 server:
-  port: 8902
+  port: 6661
 spring:
+  application:
+    name: zipkin-client
   zipkin:
-    base-url: http://192.168.1.102:9909  # zipkin server的地址，当前服务可视为zipkin client
+    base-url: http://192.168.1.102:9909
   sleuth:
     sampler:
-      percentage: 1.0 # 代表采样率，1.0表示100%采样，我的理解是zipkin Server对sleuth进行全部采样，一般优化的很好后不会100%，因为采样会增加系统的开销
-  application:
-    name: consumer-order
-user:
-  url: http://localhost:7900/
+      percentage: 1.0
+feign:
+  hystrix:
+    enabled: true
 eureka:
   client:
-    service-url: #defaultZone: http://user:123@eureka-1:7001/eureka,http://user:123@eureka-2:7002/eureka,http://user:123@eureka-3:7003/eureka
+    service-url:
       defaultZone: http://user:123@192.168.1.102:7001/eureka,http://user:123@192.168.1.102:7002/eureka,http://user:123@192.168.1.102:7003/eureka
   instance:
     prefer-ip-address: true
     metadata-map:
-      my-metadata: 我的自定义的元数据
+      my-metadata: gogog- 我的测试元数据
     lease-renewal-interval-in-seconds: 1
     lease-expiration-duration-in-seconds: 2
-feign:
-  hystrix:
-    enabled: true  #开启 Hystrix 断路器
 management:  #springboot-actuator的安全措施，false表示关闭（false：可以查看actuator的敏感端点，如：beans、env、healty较全的信息）；true表示打开（true为默认值）
   security:
     enabled: false
-logging: #日志级别
+logging:
   level:
     com.netflix: info
+user:
+  url: http://localhost:8900/
 provider-user:  # 请求服务提供者provider-user，使用的负载均衡策略
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule

@@ -4,9 +4,9 @@ import go.com.ConfigurationLoad;
 import go.com.model.User;
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.*;
-
-//@FeignClient(value = "provider-user3", configuration = ConfigurationLoad.class, fallback = UserClientFallback.class)//
-@FeignClient(value = "provider-user", configuration = ConfigurationLoad.class, fallbackFactory = UserClientFallbackFactory.class)
+//configuration = ConfigurationLoad.class,
+//@FeignClient(value = "provider-user3",  fallback = UserClientFallback.class)//
+@FeignClient(value = "provider-user", configuration = ConfigurationLoad.class, fallbackFactory = UserClientFallbackFactory.class)//
 //value 表示eureka中的服务Application名称
 public interface UserClient {
 
