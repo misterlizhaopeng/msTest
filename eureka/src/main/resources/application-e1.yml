@@ -16,6 +16,7 @@ eureka:
     hostname: eureka-1
   server:
     enable-self-preservation: true #是否开启自我保护机制：true表示开启 ；false表示关闭；
+#    eviction-interval-timer-in-ms: 2000 #清理注册表的间隔时间2s，单位毫秒
 security:
   basic:
     enabled: true  # 开启安全配置，如果不需要设置，设置为false，注意这个参数必须放在application.yml中，不能放到bootstrap.yml中

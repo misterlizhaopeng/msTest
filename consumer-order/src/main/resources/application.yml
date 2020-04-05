@@ -23,6 +23,21 @@ eureka:
 feign:
   hystrix:
     enabled: true  #开启 Hystrix 断路器
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 6000 #设置hystrix容错的超时时间 ，此时客户端超过6s接受不到服务提供者数据认为超时，解决feign客户端第一次请求失败
+#hystrix:
+#  command:
+#    default:
+#      execution:
+#        timeout:
+#          enabled: false #关闭feign客户端的超时时间，解决feign客户端第一次请求失败
+
 management:  #springboot-actuator的安全措施，false表示关闭（false：可以查看actuator的敏感端点，如：beans、env、healty较全的信息）；true表示打开（true为默认值）
   security:
     enabled: false
