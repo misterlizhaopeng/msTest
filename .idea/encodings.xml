@@ -3,6 +3,7 @@
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apigateway-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/apigateway-zuul-bus-test" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consumer-order" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consumer-order-config-server01" charset="UTF-8" />
@@ -17,14 +18,8 @@
     <file url="file://$PROJECT_DIR$/provider-user-tcc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/provider-user-tcc2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sleuth-zipkin-server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sleuth-zipkin-server02" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sleuth-zipkin-server03" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sleuth-zipkin-server04" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sleuth-zipkin-server05" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sleuth-zipkin-server06" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test-spring" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/turbine-8930" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zipkin-client" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/zipkin-client-del" charset="UTF-8" />
   </component>
 </project>
