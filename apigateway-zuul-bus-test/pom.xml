@@ -9,8 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>apigateway-zuul</artifactId>
-    <name>apigateway-zuul</name>
+    <artifactId>apigateway-zuul-bus-test</artifactId>
+    <name>apigateway-zuul-bus-test</name>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>

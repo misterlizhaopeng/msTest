@@ -1,0 +1,44 @@
+server:
+  port: 10902
+eureka:
+  client:
+    service-url:
+      defaultZone: http://user:123@192.168.1.102:7001/eureka,http://user:123@192.168.1.102:7002/eureka,http://user:123@192.168.1.102:7003/eureka
+  instance:
+    prefer-ip-address: true
+spring:
+  application:
+    name: apigateway-zuul-bus-test    # 应用名称
+security:  #访问  zuul的时候用到
+  basic:
+    enabled: true
+  user:
+    name: user
+    password: abc
+zuul:
+  routes:
+    consumer-order: /con-ord/**  #格式：服务名称：服务别名（一个*代表访问路径的一级，**代表多级访问路径）
+    provider-user: /user/**
+  ignored-services: '*'               #表示禁止所有的代理服务
+  prefix: /okgo  #给路由添加前缀
+##  ignored-services: provider-user3,consumer-order   #表示禁止代理指定的服务，多个服务用逗号分割
+
+#zuul:
+#  routes:
+#    consumer-order:  #此处随便写，只需要保证唯一即可，一般写注册到eureka中的服务名称即可
+#      path: /con-ord/**     #服务别名
+#      serviceId: consumer-order   #具体的服务
+#zuul:
+#  prefix: /okgo
+#zuul:
+#  routes:
+#    customers: /customers/**
+#zuul:
+#  prefix: api
+#  strip-prefix: false
+
+#management:  #开启手动刷新，此版本的sc，这个注解我没用一样可以实现手动刷新（github数据变化，config-client 的通过POST请求http://request/refresh 进行刷新一下，@RefreshScope标注的类中的@Value的值就会变化）
+#  security:
+#    enabled: false
+
+#  ignored-services: '*'    #表示禁止代理所有服务
