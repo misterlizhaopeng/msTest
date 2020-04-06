@@ -1,7 +1,7 @@
 encrypt:
   key: testx  # 设置加密解密的秘钥
 spring:
-  rabbitmq:
+  rabbitmq:  #spring cloud bus消息总线实现一次刷新，多处服务实例配置同步信息
     username: admin
     password: admin
     host: 192.168.25.134
