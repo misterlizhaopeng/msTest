@@ -1,4 +1,4 @@
-package go.com.queue;
+package go.com;
 
 import com.rabbitmq.http.client.domain.ExchangeType;
 import org.springframework.amqp.core.ExchangeTypes;
@@ -26,8 +26,8 @@ import org.springframework.stereotype.Component;
 @RabbitListener(
         bindings = @QueueBinding(
                 exchange = @Exchange(value = "${rabbit.mqconfig.exchange}", type = ExchangeTypes.DIRECT),
-                value = @Queue(value = "${rabbit.mqconfig.info.name}", autoDelete = "true"),
-                key = "${rabbit.mqconfig.info.key}"
+                value = @Queue(value = "${rabbit.mqconfig.error.name}", autoDelete = "true"),
+                key = "${rabbit.mqconfig.error.key}"
         )
 )
 public class Receiver {
