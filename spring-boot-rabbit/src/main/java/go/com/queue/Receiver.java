@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 
 
 //消息接受者，利用消息的监听机制
-@Component
+//@Component
 public class Receiver {
 
 

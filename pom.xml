@@ -27,6 +27,8 @@
         <module>sleuth-zipkin-server</module>
         <module>zipkin-client</module>
         <module>spring-boot-rabbit</module>
+        <module>spring-boot-rabbit-direct-consumer</module>
+        <module>spring-boot-rabbit-direct-provider</module>
 
         <!-- <module>config-client</module><module>test-spring</module>-->
     </modules>
