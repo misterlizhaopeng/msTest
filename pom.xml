@@ -26,6 +26,7 @@
         <module>config-server</module>
         <module>sleuth-zipkin-server</module>
         <module>zipkin-client</module>
+        <module>spring-boot-rabbit</module>
 
         <!-- <module>config-client</module><module>test-spring</module>-->
     </modules>

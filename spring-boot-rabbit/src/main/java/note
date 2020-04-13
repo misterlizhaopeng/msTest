@@ -1,0 +1,90 @@
+初识rabbit消息队列
+创建访问rabbit步骤：
+
+1.添加pom.xml如下：
+    <!--rabbit 依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
+        </dependency>
+2.配置文件（在test下面的resources创建application.yml）：
+    spring:
+      application:
+        name: spring-boot-rabbit
+      rabbitmq:
+        host: 192.168.25.134
+        port: 5672
+        username: admin
+        password: admin
+
+3.创建队列配置QueueConfig，如下所示：
+    //配置文件
+    @Configuration
+    public class QueueConfig {
+
+        //创建一个队列
+        @Bean
+        public Queue queue(){
+            return new Queue("queue-name");// 队列名称
+        }
+    }
+4.创建发送者，如下所示：
+
+        //消息发送者
+        @Component
+        public class Sender implements ApplicationContextAware {
+
+            public ApplicationContext ctx;
+
+            // 拿到rabbit的模板（spring 就喜欢模板；比如jdbcTemplate、restTemplate、redisTemplate等等）
+            @Autowired
+            private AmqpTemplate amqpTemplate;
+
+            public  void send(String msg){
+                //参数1：队列名称；参数2：消息
+                amqpTemplate.convertAndSend("queue-name", msg);
+            }
+
+            @Override
+            public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
+                ctx=applicationContext;
+            }
+        }
+5.创建接受者，如下所示：
+        //消息接受者，利用消息的监听机制
+        @Component
+        public class Receiver {
+
+
+            //按照队列名称 监听队列
+            @RabbitListener(queues = {"queue-name"})
+            public void recever(String msg) {
+
+                System.out.println("receiver 接受到的消息为：" + msg);
+
+            }
+        }
+6.在test里面测试
+
+    // 测试
+    @RunWith(SpringRunner.class)
+    @SpringBootTest(classes = go.com.RabbitTestStarter.class)
+    public class TestRabbitQueue {
+        @Autowired
+        private Sender sender;
+
+
+        @Test
+        public void testSend(){
+            System.out.println("------------------------------------------------------>");
+
+    //        String[] s = sender.ctx.getBeanDefinitionNames();
+    //        List<String> list =
+    //                Arrays.asList(s);
+    //        list.forEach(a->{
+    //            System.out.println(a);
+    //        });
+
+            sender.send("hello rabbit!~");
+        }
+    }
