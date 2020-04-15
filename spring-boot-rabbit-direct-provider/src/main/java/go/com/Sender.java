@@ -32,7 +32,7 @@ public class Sender {
     private String routeKey;
 
 
-    //其实一个队列一种参数的消息即可!!!!
+    //其实一个队列一种参数的消息即可!!!!rabbit 一个队列下，多个监听方法
     public void sendStr(Map<String, Object> m) {
         amqpTemplate.convertAndSend(exchangeName, routeKey, m);
         amqpTemplate.convertAndSend(exchangeName, routeKey, 1);

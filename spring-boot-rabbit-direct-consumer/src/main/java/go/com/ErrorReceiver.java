@@ -36,6 +36,7 @@ public class ErrorReceiver {
 
 
     //其实一个队列一种参数的消息即可!!!!
+    //rabbit 一个队列下，多个监听方法
     @RabbitHandler
     public void receiver(Map<String, Object> m) {
 //        Map<String, Object> m = (HashMap<String, Object>) obj;
@@ -55,7 +56,7 @@ public class ErrorReceiver {
             System.out.println("发生了异常，进行处理之");
         }*/
     }
-    
+
     @RabbitHandler
     public void receiveInt(Integer a) {
         System.out.println("接收的整形：" + a);
