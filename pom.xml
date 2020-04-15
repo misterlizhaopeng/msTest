@@ -31,11 +31,8 @@
         <module>spring-boot-rabbit-direct-provider</module>
         <module>spring-boot-rabbit-topic-consumer</module>
         <module>spring-boot-rabbit-topic-provider</module>
-
         <module>spring-boot-rabbit-fanout-consumer</module>
         <module>spring-boot-rabbit-fanout-provider</module>
-        <module>spring-boot-rabbit-consumer</module>
-        <module>spring-boot-rabbit-provider</module>
 
 
 
