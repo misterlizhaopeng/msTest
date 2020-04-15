@@ -6,6 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.util.HashMap;
+import java.util.Map;
+
 // 测试
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = go.com.SpringStarter.class)
@@ -15,12 +18,14 @@ public class TestRabbitQueue {
 
 
     @Test
-    public void testSend() throws  Exception{
+    public void testSend() throws Exception {
+        Map<String, Object> m = new HashMap<>();
+        m.put("1-m", "1-m-value");
+        m.put("2-m", "2-m-value");
+        m.put("3-m", "3-m-value");
+        m.put("4-m", "4-m-value");
 
-
-
-        sender.send("hello rabbit!~,count=one");
-
+        sender.sendStr(m);
 
 
 //        long count=0;
