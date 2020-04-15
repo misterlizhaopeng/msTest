@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: spring-boot-rabbit-direct-consumer
+  rabbitmq:
+    host: 192.168.25.134
+    port: 5672
+    username: admin
+    password: admin
+server:
+  port: 8909
+
+
+
+
+rabbit:
+  mqconfig:
+    exchange: order.exchange.fanout # 交换器
+    sms:
+      name: order.queue.sms # 队列名称
+    push:
+      name: order.queue.push # 队列名称

@@ -25,17 +25,17 @@ import org.springframework.stereotype.Component;
 @Component
 @RabbitListener(
         bindings = @QueueBinding(
-                exchange = @Exchange(value = "${rabbit.mqconfig.exchange}", type = ExchangeTypes.DIRECT),
-                value = @Queue(value = "${rabbit.mqconfig.error.name}", autoDelete = "true"),
-                key = "${rabbit.mqconfig.error.key}"
+                exchange = @Exchange(value = "${rabbit.mqconfig.exchange}", type = ExchangeTypes.TOPIC),
+                value = @Queue(value = "${rabbit.mqconfig.info.name}", autoDelete = "false"),
+                key = "${rabbit.mqconfig.info.key}"
         )
 )
-public class Receiver {
+public class LogInfoReceiver {
     //按照队列名称 监听队列
     @RabbitHandler
     public void recever(String msg) {
 
-        System.out.println("receiver 接受到的消息为：" + msg);
+        System.out.println("receiver Info --：" + msg);
 
     }
 }

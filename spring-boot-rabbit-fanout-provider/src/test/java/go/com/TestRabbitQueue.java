@@ -10,32 +10,15 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = go.com.SpringStarter.class)
 public class TestRabbitQueue {
+
     @Autowired
-    private Sender sender;
+    private OrderSender orderSender;
 
 
     @Test
-    public void testSend() throws  Exception{
+    public void testSend()  {
 
-
-
-        sender.send("hello rabbit!~,count=one");
-
-
-
-//        long count=0;
-//
-//        while (true) {
-//            Thread.sleep(1000);
-//            count++;
-//            sender.send("hello rabbit!~,count="+count);
-//        }
-
-//        while (true){
-//            Thread.sleep(1000);
-//            sender.send("hello rabbit!~");
-//        }
-
+        orderSender.send("order send--");
 
 //        for (int i = 0; i < 100; i++) {
 //            sender.send("hello rabbit!~");

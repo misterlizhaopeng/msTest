@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: spring-boot-rabbit
+  rabbitmq:
+    host: 192.168.25.134
+    port: 5672
+    username: admin
+    password: admin
+#server:
+#  port: 8901
+# rabbit.mqconfig.info.key
+
+
+rabbit:
+  mqconfig:
+    exchange: log.exchange.topic # 交换器

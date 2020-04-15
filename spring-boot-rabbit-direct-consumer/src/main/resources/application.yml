@@ -6,8 +6,13 @@ spring:
     port: 5672
     username: admin
     password: admin
+    listener:
+      simple:
+        retry:
+          enabled: true
+          max-attempts: 3
 server:
-  port: 8909
+  port: 8809
 
 
 

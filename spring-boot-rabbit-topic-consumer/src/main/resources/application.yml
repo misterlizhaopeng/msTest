@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: spring-boot-rabbit-direct-consumer
+  rabbitmq:
+    host: 192.168.25.134
+    port: 5672
+    username: admin
+    password: admin
+server:
+  port: 8909
+
+
+
+
+rabbit:
+  mqconfig:
+    exchange: log.exchange.topic # 交换器
+    info:
+      name: log.queue.info # 队列名称
+      key: '*.log.info' # 路由键
+    error:
+      name: log.queue.error # 队列名称
+      key: '*.log.error'  # 路由键
+    log:
+      name: log.queue.all # 队列名称
+      key: '*.log.*'  # 路由键
