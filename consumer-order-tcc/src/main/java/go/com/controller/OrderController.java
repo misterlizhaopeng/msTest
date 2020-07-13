@@ -52,13 +52,7 @@ public class OrderController {
      */
     @GetMapping("/hello2/{id}")
     public User hello2(@PathVariable("id") String id) {
-//        InstanceInfo fromEureka = eurekaClient.getNextServerFromEureka("provider-user", false);
-//        String pageUrl = fromEureka.getHomePageUrl();
-//        String url = "http://" + fromEureka.getIPAddr() + ":" + fromEureka.getPort() + "/hello/" + id;
-//        System.out.println("------>url:" + url);
-//        return restTemplate.getForObject(url, User.class);
         System.out.println(id);
-//        return restTemplate.getForObject("http://provider-user/hello/" + id, User.class);
         return null;
     }
 

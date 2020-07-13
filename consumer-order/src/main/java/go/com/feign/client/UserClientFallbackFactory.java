@@ -12,6 +12,7 @@ public class UserClientFallbackFactory implements FallbackFactory<UserClient> {
         return new UserClient() {
             @Override
             public User hello(String id) {
+                System.out.println("2-invoke-[UserClientFallbackFactory->hello]-name:"+Thread.currentThread().getName());
                 User user = new User();
                 user.setId(-1);
                 user.setDate(new Date());

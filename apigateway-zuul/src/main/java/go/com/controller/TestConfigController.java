@@ -11,13 +11,15 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestConfigController {
 
     @Value("${constant}")  // 来自config server
-    private  String t;
+    private String t;
     @Value("${b}")
-    private  String b;
+    private String b;
+    @Value("${ip}")
+    private String ip;
 
 
     @GetMapping("/getVal/{id}")
-    public String getVal(@PathVariable("id")  String id){
-        return "configServer->"+t+";Input->"+id+";b->"+b;
+    public String getVal(@PathVariable("id") String id) {
+        return "configServer->" + t + ";Input->" + id + ";b->" + b + ",ip->" + ip;
     }
 }

@@ -1,33 +1,46 @@
 package go.com;
 
+import com.google.common.collect.Maps;
+import com.google.common.util.concurrent.RateLimiter;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
+import com.netflix.zuul.exception.ZuulException;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.cloud.netflix.zuul.filters.support.FilterConstants;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.ByteArrayInputStream;
+import java.util.Map;
+
+import static org.springframework.cloud.netflix.zuul.filters.support.FilterConstants.SERVICE_ID_KEY;
 
 
 /**
  * 什么是zuul的过滤器？ 是在路由的几个情况下（pre,route,post,error）进行处理当前的动作，详细看下面a->f的总结：
  *
  *  a.对于filterType来说，有一个执行顺序：pre->route->[执行调用请求，执行完之后]->post，对于error来说，在pre、route阶段都有可能存在error，如果
- *      存在，执行玩error之后，再执行post，不论是否出现error，执行完post之后，响应浏览器；
+ *      存在，执行完error之后，再执行post，不论是否出现error，执行完post之后，响应浏览器；
  *  b.对于filterOrder来说，数据越小优先级别越高，比如0,1，2,3,4等等；
  *  c.对于shouldFilter来说，表示当前的过滤式是否执行的意思；
  *  d.对于run来说，当前过滤器的执行方法，有意思的是该方法的返回值可忽略，也就是说无意义；
  *  e.如果在多个可以执行的过滤器来说，filterType决定的过滤器决定权高于filterOrder，也就是先考率过滤器的类型，然后在考虑过滤器的执行顺序
- *  f.对于多个可以执行的过滤器来说，上一个过滤器可以向下面的过滤器通过对象RequestContext传递参数，这样可以可以实现过滤器链上的过滤器的执行逻辑；
+ *  f.对于多个可以执行的过滤器来说，上一个过滤器可以向下面的过滤器通过对象RequestContext传递参数，这样可以实现过滤器链上的过滤器的执行逻辑；
  *
  *
  */
 @Component
 @RefreshScope
 public class MyPreZuulFilter  extends  ZuulFilter {
+
+
+    //Guava 限流测试
+    //Google开源工具包Guava提供了限流工具类RateLimiter，该类基于令牌桶算法来完成限流
+    private RateLimiter rateLimiter = RateLimiter.create(3);//每秒生成3个令牌，用tryAcquire 获取，意思就是表示限流最大1s获取10个请求;
 
     /**
      * 类型包含下面四个
@@ -39,7 +52,7 @@ public class MyPreZuulFilter  extends  ZuulFilter {
      */
     @Override
     public String filterType() {
-        return FilterConstants.PRE_TYPE;//也可以下字符串，这只不过是一个常量值
+        return FilterConstants.PRE_TYPE;//也可以写字符串，这只不过是一个常量值
 //        return "pre";
     }
 
@@ -60,7 +73,9 @@ public class MyPreZuulFilter  extends  ZuulFilter {
      */
     @Override
     public boolean shouldFilter() {
-        return true;
+        // 这里可以考虑弄个限流开启的开关，开启限流返回true，关闭限流返回false;
+
+        return false;//暂时关闭当前路由
     }
 
     /**
@@ -71,9 +86,15 @@ public class MyPreZuulFilter  extends  ZuulFilter {
     @Override
     public Object run() {
 
+
         //多个过滤器传递参数使用到了RequestContext对象；
         RequestContext ctx= RequestContext.getCurrentContext();
+        HttpServletResponse response = ctx.getResponse();
         ctx.set("ticket", "ticket");//在过滤器链上添加参数ticket，可以用于过滤器链上剩下的可以执行过滤器的逻辑控制；
+
+        Object serviceId = ctx.get(SERVICE_ID_KEY);
+        System.out.println("serviceId:"+serviceId);
+
 
         //请求控制 start
 
@@ -83,12 +104,33 @@ public class MyPreZuulFilter  extends  ZuulFilter {
         System.out.println("请求的参数pm的值为："+pm);
         //获取请求头的token信息
         String token = request.getHeader("ticket");
-        if (token==null ||token.equals(""))
+        //if (token==null ||token.equals(""))
+        //guave 限流测试
+        if (!rateLimiter.tryAcquire()){//没有获取到令牌，tryAcquire函数可以尝试在timeout时间内获取令牌，如果可以则挂起等待相应时间并返回true，否则立即返回false
+            try {
+                HttpStatus httpStatus= HttpStatus.TOO_MANY_REQUESTS;
+                response.setContentType(MediaType.TEXT_PLAIN_VALUE);
+                response.setStatus(httpStatus.value());
+                response.getWriter().append(httpStatus.getReasonPhrase());
+                ctx.setSendZuulResponse(false);
+                throw new ZuulException(
+                        httpStatus.getReasonPhrase(),
+                        httpStatus.value(),
+                        httpStatus.getReasonPhrase()
+                );
+            }catch (Exception ee){
+                ee.printStackTrace();
+            }
+        }
+
+        if (pm==null ||pm.equals(""))
         {
             //表示过滤器链到此结束，此处为false不能组织下一个过滤器，只是在过滤器链上设置了false的值，剩下的过滤器可以先拿到该值再控制是否执行
             ctx.setSendZuulResponse(false);
+
             //响应状态码
             ctx.setResponseStatusCode(401);
+
             //响应的内容
 //            ctx.setResponseBody("请求无效...abcD");
             //ctx.setResponseDataStream(new ByteArrayInputStream("{\"msg\":\" invalid request，请求无效，请重新登录！\"}".getBytes()));

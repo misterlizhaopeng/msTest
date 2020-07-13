@@ -3,13 +3,13 @@ server:
 eureka:
   client:
     service-url:
-      defaultZone: http://user:123@192.168.1.102:7001/eureka,http://user:123@192.168.1.102:7002/eureka,http://user:123@192.168.1.102:7003/eureka
+      defaultZone: http://user:123@192.168.1.100:7001/eureka,http://user:123@192.168.1.100:7002/eureka,http://user:123@192.168.1.100:7003/eureka
   instance:
     prefer-ip-address: true
 spring:
   application:
     name: apigateway-zuul    # 应用名称
-security:  #访问  zuul的时候用到
+security:  #访问  zuul 的时候用到
   basic:
     enabled: true
   user:
@@ -21,7 +21,36 @@ zuul:
     provider-user: /user/**
   ignored-services: '*'               #表示禁止所有的代理服务
   prefix: /okgo  #给路由添加前缀
+#  # 限流设置
+#  ratelimit:
+#    #key-prefix: springcloud-book #按粒度拆分的临时变量key前缀
+#    enabled: true #启用开关
+#    #repository: IN_MEMORY #key存储类型，默认是IN_MEMORY本地内存，此外还有多种形式
+#    behind-proxy: true #表示代理之后
+#    default-policy: #全局限流策略，可单独细化到服务粒度
+#      limit: 2 #在一个单位时间窗口的请求数量：时间窗口内限定请求的次数
+#      quota: 1 #在一个单位时间窗口的请求时间限制
+#      refresh-interval: 3 # 单位时间窗口：时间窗口
+#      type:
+#        - user #可指定用户粒度
+#        - origin #可指定客户端地址粒度
+#        - url #可指定url粒度
+#    policies:
+#      consumer-order:
+#      limit: 5
+#      quota: 5
+#      efresh-interval: 10
+
+
 ##  ignored-services: provider-user3,consumer-order   #表示禁止代理指定的服务，多个服务用逗号分割
+
+info:
+  app:
+    name: a-name-@project.groupId@ -@project.artifactId@- @project.version@ -@properties.project.build.sourceEncoding@
+    encoding: e-encoding-@project.build.sourceEncoding@
+    java:
+      source: @java.version@
+      target: @java.version@
 
 #zuul:
 #  routes:

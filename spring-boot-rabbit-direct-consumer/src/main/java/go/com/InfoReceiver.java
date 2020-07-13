@@ -2,6 +2,7 @@ package go.com;
 
 import org.springframework.amqp.core.ExchangeTypes;
 import org.springframework.amqp.rabbit.annotation.*;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 
@@ -21,6 +22,7 @@ import org.springframework.stereotype.Component;
  *
  * 测试之后的结论：如果当前的direct类型的队列的消息积累了很多，停止生产者继续生产消息，然后打开消费者，可以一下接受所有的消息；
  */
+
 @Component
 @RabbitListener(
         bindings = @QueueBinding(

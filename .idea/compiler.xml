@@ -24,6 +24,13 @@
         <module name="provider-user-tcc2" />
         <module name="provideruser" />
         <module name="sleuthzipkinserver" />
+        <module name="spring-boot-rabbit-direct-consumer" />
+        <module name="spring-boot-rabbit-direct-provider" />
+        <module name="spring-boot-rabbit-fanout-consumer" />
+        <module name="spring-boot-rabbit-fanout-provider" />
+        <module name="spring-boot-rabbit-topic-consumer" />
+        <module name="spring-boot-rabbit-topic-provider" />
+        <module name="springbootrabbit" />
         <module name="turbine8930" />
         <module name="zipkinclient" />
       </profile>
@@ -58,6 +65,9 @@
       <module name="sleuthzipkinserver04" target="1.8" />
       <module name="sleuthzipkinserver05" target="1.8" />
       <module name="sleuthzipkinserver06" target="1.8" />
+      <module name="spring-boot-rabbit-consumer" target="1.8" />
+      <module name="spring-boot-rabbit-direct-provider-spring" target="1.8" />
+      <module name="spring-boot-rabbit-provider" target="1.8" />
       <module name="testspring" target="1.8" />
       <module name="zipkinclientdel" target="1.8" />
     </bytecodeTargetLevel>

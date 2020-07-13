@@ -24,7 +24,7 @@ public class SecondZuulFilter extends ZuulFilter {
         //通过对象RequestContext对象可以拿到参数
         RequestContext ctx =RequestContext.getCurrentContext();
         String ticket = (String)ctx.get("ticket");
-        return true;
+        return false;
 
     }
 

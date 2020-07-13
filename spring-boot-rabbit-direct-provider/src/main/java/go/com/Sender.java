@@ -5,6 +5,8 @@ import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.amqp.core.Message;
 import org.springframework.amqp.core.MessageDeliveryMode;
 import org.springframework.amqp.core.MessagePostProcessor;
+import org.springframework.amqp.rabbit.annotation.RabbitListener;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -22,7 +24,10 @@ public class Sender {
 
     // 拿到rabbit的模板（spring 就喜欢模板；比如jdbcTemplate、restTemplate、redisTemplate等等）
     @Autowired
-    private AmqpTemplate amqpTemplate;
+    private AmqpTemplate amqpTemplate ;
+
+//    @Autowired
+//    private RabbitTemplate rabbitTemplate ;
 
     //交换器
     @Value("${rabbit.mqconfig.exchange}")
@@ -32,8 +37,10 @@ public class Sender {
     private String routeKey;
 
 
-    //其实一个队列一种参数的消息即可!!!!rabbit 一个队列下，多个监听方法
+    //其实一个队列一种参数的消息即可!!!!Rabbit 一个队列下，多个监听方法
     public void sendStr(Map<String, Object> m) {
+        // rabbitTemplate.convertAndSend("","","");
+//        rabbitTemplate.convertAndSend("","",m);
         amqpTemplate.convertAndSend(exchangeName, routeKey, m);
         amqpTemplate.convertAndSend(exchangeName, routeKey, 1);
         amqpTemplate.convertAndSend(exchangeName, routeKey, "2");
@@ -52,6 +59,16 @@ public class Sender {
 
 
     }
+
+//    @RabbitListener(queues = "log.queue.error")
+//    public void receiveMsg(Map<String, Object> m){
+//
+//        System.out.println(123);
+//        System.out.println(m);
+//
+//
+//    }
+
 
 
 

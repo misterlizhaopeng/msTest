@@ -70,37 +70,46 @@ public class MyPreZuulFilter  extends  ZuulFilter {
      */
     @Override
     public Object run() {
-
-        //多个过滤器传递参数使用到了RequestContext对象；
-        RequestContext ctx= RequestContext.getCurrentContext();
-        ctx.set("ticket", "ticket");//在过滤器链上添加参数ticket，可以用于过滤器链上剩下的可以执行过滤器的逻辑控制；
-
-        //请求控制 start
-
-        //  拿到请求信息
-        HttpServletRequest request = ctx.getRequest();
-        String pm = request.getParameter("pm");
-        System.out.println("请求的参数pm的值为："+pm);
-        //获取请求头的token信息
-        String token = request.getHeader("ticket");
-        if (token==null ||token.equals(""))
-        {
-            //表示过滤器链到此结束，此处为false不能组织下一个过滤器，只是在过滤器链上设置了false的值，剩下的过滤器可以先拿到该值再控制是否执行
-            ctx.setSendZuulResponse(false);
-            //响应状态码
-            ctx.setResponseStatusCode(401);
-            //响应的内容
-//            ctx.setResponseBody("请求无效...abcD");
-            //ctx.setResponseDataStream(new ByteArrayInputStream("{\"msg\":\" invalid request，请求无效，请重新登录！\"}".getBytes()));
-            ctx.getResponse().setCharacterEncoding("UTF-8");// 解决下面setResponseBody响应到浏览器中文乱码的问题
-            ctx.setResponseBody("{\"msg\":\" invalid request，请求无效，请重新登录！\"}");
-
-        }
-
-        //请求控制 end
+        return null;
 
 
-        System.out.println("代码执行了...pre");
-        return null;//对于返回值：返回的内容对于现在的框架没有意义，所以可返回，也可以不用返回
+        /*
+
+
+                            //多个过滤器传递参数使用到了RequestContext对象；
+                            RequestContext ctx= RequestContext.getCurrentContext();
+                            ctx.set("ticket", "ticket");//在过滤器链上添加参数ticket，可以用于过滤器链上剩下的可以执行过滤器的逻辑控制；
+
+                            //请求控制 start
+
+                            //  拿到请求信息
+                            HttpServletRequest request = ctx.getRequest();
+                            String pm = request.getParameter("pm");
+                            System.out.println("请求的参数pm的值为："+pm);
+                            //获取请求头的token信息
+                            String token = request.getHeader("ticket");
+                            if (token==null ||token.equals(""))
+                            {
+                                //表示过滤器链到此结束，此处为false不能组织下一个过滤器，只是在过滤器链上设置了false的值，剩下的过滤器可以先拿到该值再控制是否执行
+                                ctx.setSendZuulResponse(false);
+                                //响应状态码
+                                ctx.setResponseStatusCode(401);
+                                //响应的内容
+                    //            ctx.setResponseBody("请求无效...abcD");
+                                //ctx.setResponseDataStream(new ByteArrayInputStream("{\"msg\":\" invalid request，请求无效，请重新登录！\"}".getBytes()));
+                                ctx.getResponse().setCharacterEncoding("UTF-8");// 解决下面setResponseBody响应到浏览器中文乱码的问题
+                                ctx.setResponseBody("{\"msg\":\" invalid request，请求无效，请重新登录！\"}");
+
+                            }
+
+                            //请求控制 end
+
+
+                            System.out.println("代码执行了...pre");
+                            return null;//对于返回值：返回的内容对于现在的框架没有意义，所以可返回，也可以不用返回
+
+
+
+        */
     }
 }

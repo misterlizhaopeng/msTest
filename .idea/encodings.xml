@@ -18,6 +18,15 @@
     <file url="file://$PROJECT_DIR$/provider-user-tcc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/provider-user-tcc2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sleuth-zipkin-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-rabbit" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-rabbit-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-rabbit-direct-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-rabbit-direct-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-rabbit-fanout-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-rabbit-fanout-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-rabbit-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-rabbit-topic-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-rabbit-topic-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test-spring" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/turbine-8930" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zipkin-client" charset="UTF-8" />

@@ -1,8 +1,8 @@
 server:
-  port: 8902
+  port: 8903
 spring:
   zipkin:
-    base-url: http://192.168.1.102:9909  # zipkin server的地址，当前服务可视为zipkin client
+    base-url: http://192.168.1.100:9909  # zipkin server的地址，当前服务可视为zipkin client
   sleuth:
     sampler:
       percentage: 1.0 # 代表采样率，1.0表示100%采样，我的理解是zipkin Server对sleuth进行全部采样，一般优化的很好后不会100%，因为采样会增加系统的开销
@@ -13,7 +13,7 @@ user:
 eureka:
   client:
     service-url: #defaultZone: http://user:123@eureka-1:7001/eureka,http://user:123@eureka-2:7002/eureka,http://user:123@eureka-3:7003/eureka
-      defaultZone: http://user:123@192.168.1.102:7001/eureka,http://user:123@192.168.1.102:7002/eureka,http://user:123@192.168.1.102:7003/eureka
+      defaultZone: http://user:123@192.168.1.100:7001/eureka,http://user:123@192.168.1.100:7002/eureka,http://user:123@192.168.1.100:7003/eureka
   instance:
     prefer-ip-address: true
     metadata-map:

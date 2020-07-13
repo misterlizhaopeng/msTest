@@ -1,8 +1,8 @@
 server:
-  port: 7901
+  port: 7903
 spring:
   zipkin:
-    base-url: http://192.168.1.102:9909  # zipkin server的地址，当前服务可视为zipkin client
+    base-url: http://192.168.1.100:9909  # zipkin server的地址，当前服务可视为zipkin client
   sleuth:
     sampler:
       percentage: 1.0 # 代表采样率，1.0表示100%采样，我的理解是zipkin Server对sleuth进行全部采样，一般优化的很好后不会100%，因为采样会增加系统的开销
@@ -18,17 +18,18 @@ eureka:
       enabled: true
     service-url:
 #      defaultZone: http://user:123@localhost:7001/eureka  defaultZone: http://user:123@eureka-1:7001/eureka,http://user:123@eureka-2:7002/eureka,http://user:123@eureka-3:7003/eureka
-      defaultZone: http://user:123@192.168.1.102:7001/eureka,http://user:123@192.168.1.102:7002/eureka,http://user:123@192.168.1.102:7003/eureka
+      defaultZone: http://user:123@192.168.1.100:7001/eureka,http://user:123@192.168.1.100:7002/eureka,http://user:123@192.168.1.100:7003/eureka
+    registry-fetch-interval-seconds: 30 # 缓存在调用方的微服务实例清单刷新时间
   instance:
     prefer-ip-address: true
-    lease-renewal-interval-in-seconds: 5
-    lease-expiration-duration-in-seconds: 10
+    lease-renewal-interval-in-seconds: 5 # 该配置说明，服务提供者会维持一个心跳告诉eureka server 我还活着，这个就是一个心跳周期
+    lease-expiration-duration-in-seconds: 10 #该配置说明,你的最后一次续约时间开始，往后推90s 还没接受到你的心跳,那么我就需要把你剔除.
 management:    #springboot-actuator的安全措施，false表示关闭（false：可以查看actuator的敏感端点，如：beans、env、healty较全的信息）；true表示打开（true为默认值）
   security:
     enabled: false
 info:
  app:
-  name: a-name-@project.groupId@ -@project.artifactId@- @project.version@
+  name: a-name-@project.groupId@ -@project.artifactId@- @project.version@ -@properties.project.build.sourceEncoding@
   encoding: e-encoding-@project.build.sourceEncoding@
   java:
     source: @java.version@
