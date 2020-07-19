@@ -1,40 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36110dc8-b4a0-48be-aa4a-c0c12599c20d" name="Default Changelist" comment="这是一个没用 的注释2">
-      <change afterPath="$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/MyPreZuulFilterRateLimit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apigateway-zuul/src/main/java/weblimit/TestRateLimit.java" afterDir="false" />
+    <list default="true" id="36110dc8-b4a0-48be-aa4a-c0c12599c20d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/apigateway-zuul/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-user/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-client-02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-client-02/src/main/java/go/com/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-client-02/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-client-02/src/test/java/go/com/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-client-02/zipkinclient02.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigateway-zuul-bus-test/src/main/java/go/com/MyPreZuulFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway-zuul-bus-test/src/main/java/go/com/MyPreZuulFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigateway-zuul-bus-test/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway-zuul-bus-test/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigateway-zuul-bus-test/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway-zuul-bus-test/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apigateway-zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway-zuul/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/MyFallbackProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/MyFallbackProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/MyPreZuulFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/MyPreZuulFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/SecondZuulFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/SecondZuulFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/ThirdZuulFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/ThirdZuulFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/controller/TestConfigController.java" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/controller/TestConfigController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apigateway-zuul/src/main/java/weblimit/TestRateLimit.java" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway-zuul/src/main/java/weblimit/TestRateLimit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apigateway-zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway-zuul/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apigateway-zuul/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway-zuul/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer-order-tcc/src/main/java/go/com/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-order-tcc/src/main/java/go/com/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer-order/src/main/java/go/com/ConsumerOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-order/src/main/java/go/com/ConsumerOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer-order/src/main/java/go/com/controller_hystrix/OrderControllerHystrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-order/src/main/java/go/com/controller_hystrix/OrderControllerHystrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer-order/src/main/java/go/com/feign/client/UserClientFallbackFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-order/src/main/java/go/com/feign/client/UserClientFallbackFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-order/src/main/java/go/com/controller_feign/OrderControllerFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-order/src/main/java/go/com/controller_feign/OrderControllerFeign.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer-order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-order/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka/src/main/resources/application-e1.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/src/main/resources/application-e1.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka/src/main/resources/application-e2.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/src/main/resources/application-e2.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka/src/main/resources/application-e3.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/src/main/resources/application-e3.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/src/main/java/go/com/ProviderUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/src/main/java/go/com/ProviderUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provider-user/src/main/java/go/com/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/src/main/java/go/com/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provider-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-direct-consumer/src/main/java/go/com/InfoReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-rabbit-direct-consumer/src/main/java/go/com/InfoReceiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-direct-provider/src/main/java/go/com/Sender.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-rabbit-direct-provider/src/main/java/go/com/Sender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-rabbit-direct-provider/src/test/java/go/com/TestRabbitQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-rabbit-direct-provider/src/test/java/go/com/TestRabbitQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zipkin-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zipkin-client/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -95,6 +90,7 @@
     <ignored path="$PROJECT_DIR$/spring-boot-rabbit-fanout-provider/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-rabbit-consumer/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-rabbit-provider/target/" />
+    <ignored path="$PROJECT_DIR$/zipkin-client-02/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,77 +128,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/MyPreZuulFilter.java">
+        <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="42" column="49" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/MyPreZuulFilterRateLimit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="76" column="29" lean-forward="true" selection-start-line="76" selection-start-column="29" selection-end-line="76" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1188#1189#0" expanded="true" />
-                <element signature="e#1255#1256#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="273">
+              <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/jdk1.8.0_121/src.zip!/java/util/Collection.java">
+        <entry file="file://$PROJECT_DIR$/provider-user/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="579" column="16" selection-start-line="579" selection-start-column="16" selection-end-line="579" selection-end-column="16" />
-              <folding>
-                <element signature="e#26957#26958#0" expanded="true" />
-                <element signature="e#27022#27023#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="182">
+              <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.5.RELEASE/spring-cloud-netflix-core-1.4.5.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/support/FilterConstants.java">
+        <entry file="file://$PROJECT_DIR$/provider-user/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="70" column="31" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0-sources.jar!/com/google/common/util/concurrent/RateLimiter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="114" column="28" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
-              <folding>
-                <element signature="e#14599#14600#0" expanded="true" />
-                <element signature="e#14646#14647#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apigateway-zuul/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/provider-user/src/main/java/go/com/ProviderUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="130">
+              <caret line="10" column="91" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="91" />
             </state>
           </provider>
         </entry>
@@ -210,17 +157,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/provider-user/src/main/java/go/com/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-52">
-              <caret line="36" column="23" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="23" />
+            <state relative-caret-position="239">
+              <caret line="75" column="50" selection-start-line="75" selection-start-column="50" selection-end-line="75" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/ZuulStarter.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.4.5.RELEASE/spring-cloud-netflix-eureka-client-1.4.5.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/EurekaInstanceConfigBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="120">
+              <caret line="308" column="45" selection-start-line="308" selection-start-column="36" selection-end-line="308" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#12694#12695#0" expanded="true" />
+                <element signature="e#12723#12724#0" expanded="true" />
+                <element signature="e#16671#16672#0" expanded="true" />
+                <element signature="e#16700#16701#0" expanded="true" />
+                <element signature="e#16760#16761#0" expanded="true" />
+                <element signature="e#16805#16806#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.10.RELEASE/spring-context-4.3.10.RELEASE-sources.jar!/org/springframework/context/EnvironmentAware.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-server/src/main/java/go/com/ConfigStarter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -228,11 +202,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apigateway-zuul/src/main/resources/bootstrap.yml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/consumer-order/src/main/java/go/com/controller_feign/OrderControllerFeign.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="6" column="61" lean-forward="true" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
+            <state relative-caret-position="81">
+              <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consumer-order/src/main/java/go/com/feign/client/UserClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="26" column="29" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consumer-order/src/main/java/go/com/feign/client/UserClientFallbackFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -254,36 +246,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>WebsocketDeploymentInfoCustomizer</find>
-      <find>spring-cloud-starter-sleuth</find>
-      <find>spring-cloud-starter-openfeign</find>
-      <find>enabled</find>
-      <find>build</find>
-      <find>xsi:schemaLocation=&quot;http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd&quot;&gt;</find>
-      <find>UserFeignClient</find>
-      <find>configuration</find>
-      <find>rabbit.mqconfig.info.key</find>
-      <find>spring-boot-rabbit-fanout-provider</find>
-      <find>spring-boot-rabbit-provider</find>
-      <find>accountServiceConfirm</find>
-      <find>accountServiceCancel</find>
-      <find>bytetcc-supports</find>
-      <find>避免把自己注册进去</find>
       <find>USER_URL</find>
       <find>back_b</find>
       <find>hello_user_hystrix</find>
       <find>ip</find>
-      <find>192.168.1.102</find>
       <find>EurekaServerAutoConfiguration</find>
       <find>ZuulServerMarkerConfiguration</find>
       <find>ZuulProxyMarkerConfiguration</find>
       <find>ServletRegistrationBean</find>
       <find>zuulServlet</find>
-      <find>192.168.1.100</find>
       <find>fallbackResponse</find>
       <find>key</find>
       <find>get</find>
       <find>RibbonRoutingFilter</find>
+      <find>HandlerInterceptor</find>
+      <find>handler</find>
+      <find>ha</find>
+      <find>192.168.1.100</find>
+      <find>sleuth</find>
+      <find>DiscoveryClient</find>
+      <find>ClientHttpResponse</find>
+      <find>config-server-1.0.jar</find>
+      <find>9099</find>
+      <find>192.168.1.102</find>
+      <find>actuator</find>
+      <find>probability</find>
+      <find>instance</find>
+      <find>host</find>
+      <find>setEnvironment</find>
+      <find>port</find>
+      <find>hello-user</find>
     </findStrings>
     <replaceStrings>
       <replace>192.168.1.100</replace>
@@ -298,14 +290,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-boot-rabbit-topic-provider/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-rabbit-topic-provider/src/main/java/go/com/LogErrorSender.java" />
-        <option value="$PROJECT_DIR$/spring-boot-rabbit-topic-provider/src/test/resources/application.yml" />
-        <option value="$PROJECT_DIR$/spring-boot-rabbit-topic-provider/src/test/java/go/com/TestRabbitQueue.java" />
-        <option value="$PROJECT_DIR$/spring-boot-rabbit-topic-provider/src/main/java/go/com/OrderSender.java" />
-        <option value="$PROJECT_DIR$/spring-boot-rabbit-topic-provider/src/main/java/go/com/UserSender.java" />
-        <option value="$PROJECT_DIR$/spring-boot-rabbit-fanout-provider/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-rabbit-fanout-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-rabbit-fanout-consumer/src/main/java/note-4-rabbit-consumer-fanout" />
         <option value="$PROJECT_DIR$/spring-boot-rabbit-fanout-consumer/src/main/java/go/com/SmsReceiver.java" />
         <option value="$PROJECT_DIR$/spring-boot-rabbit-fanout-provider/src/test/resources/application.yml" />
@@ -323,32 +307,40 @@
         <option value="$PROJECT_DIR$/spring-boot-rabbit-direct-provider/src/test/java/go/com/TestRabbitQueue.java" />
         <option value="$PROJECT_DIR$/spring-boot-rabbit-direct-consumer/src/main/java/go/com/InfoReceiver.java" />
         <option value="$PROJECT_DIR$/spring-boot-rabbit-direct-provider/src/main/java/go/com/Sender.java" />
-        <option value="$PROJECT_DIR$/eureka/src/main/resources/application-e3.yml" />
-        <option value="$PROJECT_DIR$/eureka/src/main/resources/application-e2.yml" />
-        <option value="$PROJECT_DIR$/eureka/src/main/resources/application-e1.yml" />
         <option value="$PROJECT_DIR$/provider-user/src/main/java/go/com/ProviderUser.java" />
         <option value="$PROJECT_DIR$/consumer-order/src/main/java/go/com/ConsumerOrder.java" />
         <option value="$PROJECT_DIR$/consumer-order/src/main/java/go/com/feign/client/UserClientFallbackFactory.java" />
         <option value="$PROJECT_DIR$/consumer-order/src/main/java/go/com/controller_hystrix/OrderControllerHystrix.java" />
-        <option value="$PROJECT_DIR$/provider-user/src/main/java/go/com/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/config-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/provider-user/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/apigateway-zuul-bus-test/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/apigateway-zuul/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/apigateway-zuul-bus-test/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/consumer-order/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/config-server/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/apigateway-zuul-bus-test/src/main/java/go/com/MyPreZuulFilter.java" />
-        <option value="$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/MyFallbackProvider.java" />
-        <option value="$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/controller/TestConfigController.java" />
-        <option value="$PROJECT_DIR$/apigateway-zuul/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/apigateway-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/weblimit/TestRateLimit.java" />
-        <option value="$PROJECT_DIR$/apigateway-zuul/src/main/java/weblimit/TestRateLimit.java" />
         <option value="$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/SecondZuulFilter.java" />
         <option value="$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/ThirdZuulFilter.java" />
         <option value="$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/MyPreZuulFilter.java" />
+        <option value="$PROJECT_DIR$/provider-user/src/main/java/go/com/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/eureka/src/main/resources/application-e1.yml" />
+        <option value="$PROJECT_DIR$/eureka/src/main/resources/application-e2.yml" />
+        <option value="$PROJECT_DIR$/eureka/src/main/resources/application-e3.yml" />
+        <option value="$PROJECT_DIR$/provider-user/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/config-server/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/config-server/Dockerfile" />
         <option value="$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/MyPreZuulFilterRateLimit.java" />
+        <option value="$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/MyFallbackProvider.java" />
+        <option value="$PROJECT_DIR$/apigateway-zuul/Dockerfile" />
+        <option value="$PROJECT_DIR$/apigateway-zuul/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/consumer-order/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/zipkin-client/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/controller/TestConfigController.java" />
+        <option value="$PROJECT_DIR$/apigateway-zuul/src/main/java/weblimit/TestRateLimit.java" />
+        <option value="$PROJECT_DIR$/zipkin-client-02/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin-client-02/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/zipkin-client-02/src/main/java/go/com/App.java" />
+        <option value="$PROJECT_DIR$/apigateway-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/apigateway-zuul/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/consumer-order/src/main/java/go/com/controller_feign/OrderControllerFeign.java" />
+        <option value="$PROJECT_DIR$/config-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/provider-user/Dockerfile" />
       </list>
     </option>
   </component>
@@ -376,24 +368,6 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="apigateway-zuul" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="apigateway-zuul" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="apigateway-zuul" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter-netflix-zuul:1.4.5.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="apigateway-zuul" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter-netflix-zuul:1.4.5.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="com.netflix.zuul:zuul-core:1.3.1" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
@@ -436,153 +410,6 @@
               <item name="msTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="msTest" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="msTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msTest" type="462c0819:PsiDirectoryNode" />
-              <item name="apigateway-zuul" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msTest" type="462c0819:PsiDirectoryNode" />
-              <item name="apigateway-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msTest" type="462c0819:PsiDirectoryNode" />
-              <item name="apigateway-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msTest" type="462c0819:PsiDirectoryNode" />
-              <item name="apigateway-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msTest" type="462c0819:PsiDirectoryNode" />
-              <item name="apigateway-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msTest" type="462c0819:PsiDirectoryNode" />
-              <item name="apigateway-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ZuulStarter" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="msTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msTest" type="462c0819:PsiDirectoryNode" />
-              <item name="apigateway-zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msTest" type="462c0819:PsiDirectoryNode" />
-              <item name="provider-user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msTest" type="462c0819:PsiDirectoryNode" />
-              <item name="provider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msTest" type="462c0819:PsiDirectoryNode" />
-              <item name="provider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msTest" type="462c0819:PsiDirectoryNode" />
-              <item name="provider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msTest" type="462c0819:PsiDirectoryNode" />
-              <item name="provider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msTest" type="462c0819:PsiDirectoryNode" />
-              <item name="provider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="msTest" type="462c0819:PsiDirectoryNode" />
-              <item name="provider-user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ProviderUser" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="msTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="msTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-web:4.3.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="msTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-web:4.3.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-web-4.3.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-web:4.3.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-web-4.3.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-web:4.3.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-web-4.3.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="msTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-web:4.3.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-web-4.3.10.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-              <item name="HttpStatus" type="1a9f42e2:ClassTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -601,8 +428,8 @@
     <property name="ToolWindowAnt Build.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594613112397" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ssmcrud" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595165843992" />
+    <property name="last_opened_file_path" value="S:/tuling/四：分布式框架专题/10.Rabbitmq基本概念讲解 -司马/tulingvip-rabbitmq" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -612,25 +439,25 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\hhhhhhhhhhhhhhhhhhhhhhhhhhhh\java\msTest\zipkin-client\src\main\java\go\com" />
-      <recent name="F:\hhhhhhhhhhhhhhhhhhhhhhhhhhhh\java\msTest\consumer-order-ribbon\src" />
-      <recent name="F:\hhhhhhhhhhhhhhhhhhhhhhhhhhhh\java\msTest\consumer-order-ribbon\src\test" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="go.com" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\hhhhhhhhhhhhhhhhhhhhhhhhhhhh\java\msTest\apigateway-zuul" />
+      <recent name="F:\hhhhhhhhhhhhhhhhhhhhhhhhhhhh\java\msTest" />
+      <recent name="F:\hhhhhhhhhhhhhhhhhhhhhhhhhhhh\java\msTest\spring-boot-rabbit-fanout-consumer\src\main\java" />
+      <recent name="F:\hhhhhhhhhhhhhhhhhhhhhhhhhhhh\java\msTest\spring-boot-rabbit-topic-consumer\src\main\java" />
+      <recent name="F:\hhhhhhhhhhhhhhhhhhhhhhhhhhhh\java\msTest\spring-boot-rabbit-direct-consumer\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="go.com" />
       <recent name="go.com.model" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\hhhhhhhhhhhhhhhhhhhhhhhhhhhh\java\msTest" />
-      <recent name="F:\hhhhhhhhhhhhhhhhhhhhhhhhhhhh\java\msTest\spring-boot-rabbit-fanout-consumer\src\main\java" />
-      <recent name="F:\hhhhhhhhhhhhhhhhhhhhhhhhhhhh\java\msTest\spring-boot-rabbit-topic-consumer\src\main\java" />
-      <recent name="F:\hhhhhhhhhhhhhhhhhhhhhhhhhhhh\java\msTest\spring-boot-rabbit-direct-consumer\src\main\java" />
-      <recent name="F:\hhhhhhhhhhhhhhhhhhhhhhhhhhhh\java\msTest\spring-boot-rabbit-direct-provider\src\main\java" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\hhhhhhhhhhhhhhhhhhhhhhhhhhhh\java\msTest\zipkin-client\src\main\java\go\com" />
+      <recent name="F:\hhhhhhhhhhhhhhhhhhhhhhhhhhhh\java\msTest\consumer-order-ribbon\src" />
+      <recent name="F:\hhhhhhhhhhhhhhhhhhhhhhhhhhhh\java\msTest\consumer-order-ribbon\src\test" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -658,7 +485,7 @@
     </option>
     <option name="contentProportion" value="0.23996913" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ZuulStarter">
+  <component name="RunManager" selected="Spring Boot.ConfigStarter">
     <configuration name="TestRateLimit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="weblimit.TestRateLimit" />
       <module name="apigatewayzuul" />
@@ -668,20 +495,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestRabbitQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-rabbit-direct-provider" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="go.com.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="go.com" />
-      <option name="MAIN_CLASS_NAME" value="go.com.TestRabbitQueue" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -717,18 +530,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRabbitQueue.testSend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-rabbit-topic-provider" />
+    <configuration name="App (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="zipkinclient02" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="go.com.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="go.com" />
-      <option name="MAIN_CLASS_NAME" value="go.com.TestRabbitQueue" />
-      <option name="METHOD_NAME" value="testSend" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="go.com.App" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -750,6 +560,8 @@
     <configuration name="ConfigStarter" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="configserver" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="go.com.ConfigStarter" />
+      <option name="PROGRAM_PARAMETERS" value="--server.port=5567 --eureka.instance.ipAddress=192.168.1.109" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -961,7 +773,6 @@
     </configuration>
     <list>
       <item itemvalue="Application.TestRateLimit" />
-      <item itemvalue="JUnit.TestRabbitQueue.testSend" />
       <item itemvalue="JUnit.TestRabbitQueue" />
       <item itemvalue="JUnit.TestRabbitQueue.testSend (1)" />
       <item itemvalue="Spring Boot.ConsumerOrder" />
@@ -983,14 +794,15 @@
       <item itemvalue="Spring Boot.ZuulStarterBusTest" />
       <item itemvalue="Spring Boot.SpringStarter" />
       <item itemvalue="Spring Boot.RabbitTestStarter (1)" />
+      <item itemvalue="Spring Boot.App (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.App (1)" />
         <item itemvalue="Application.TestRateLimit" />
         <item itemvalue="JUnit.TestRabbitQueue.testSend (1)" />
         <item itemvalue="Spring Boot.RabbitTestStarter (1)" />
         <item itemvalue="Spring Boot.SpringStarter" />
-        <item itemvalue="JUnit.TestRabbitQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -1135,7 +947,11 @@
       <workItem from="1594300970407" duration="28141000" />
       <workItem from="1594486329720" duration="1704000" />
       <workItem from="1594539364713" duration="15226000" />
-      <workItem from="1594584320052" duration="4494000" />
+      <workItem from="1594584320052" duration="7142000" />
+      <workItem from="1594711317310" duration="2894000" />
+      <workItem from="1594823375120" duration="75000" />
+      <workItem from="1594892596605" duration="48608000" />
+      <workItem from="1595135609524" duration="8527000" />
     </task>
     <task id="LOCAL-00001" summary="这是一个没用 的注释">
       <created>1585738227006</created>
@@ -1151,7 +967,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585738498447</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="spring cloud zuul 限流">
+      <created>1594613222292</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594613222292</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1187,7 +1010,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="515291000" />
+    <option name="totallyTimeSpent" value="578043000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1201,7 +1024,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" x="434" y="184" width="497" height="372" id="Project" order="0" sideWeight="0.49046323" visible="true" weight="0.25075528" />
+      <window_info content_ui="combo" x="434" y="184" width="497" height="372" id="Project" order="0" sideWeight="0.49046323" visible="true" weight="0.244713" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -1217,18 +1040,18 @@
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32698414" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.25906345" weight="0.22222222" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.25906345" visible="true" weight="0.952" />
       <window_info anchor="bottom" id="Spring" order="9" weight="0.32857144" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.7409366" side_tool="true" weight="0.23492064" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.408" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.2688" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" sideWeight="0.49924472" weight="0.32539684" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.6873016" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.85120845" visible="true" weight="0.3584" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.85120845" weight="0.3424" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.6864" />
       <window_info anchor="bottom" id="Duplicate detector" order="16" weight="0.32961783" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Maven" order="1" weight="0.15861027" />
-      <window_info anchor="right" id="Structure" order="2" sideWeight="0.5009597" weight="0.16691843" />
+      <window_info anchor="right" id="Structure" order="2" sideWeight="0.5009597" weight="0.25377643" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.24924472" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.4176737" />
       <window_info anchor="right" id="Palette" order="5" />
@@ -1258,7 +1081,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="这是一个没用 的注释" />
     <MESSAGE value="这是一个没用 的注释2" />
-    <option name="LAST_COMMIT_MESSAGE" value="这是一个没用 的注释2" />
+    <MESSAGE value="spring cloud zuul 限流" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring cloud zuul 限流" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1298,6 +1122,24 @@
           <line>42</line>
           <properties />
           <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/MyFallbackProvider.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-sleuth-zipkin/1.3.4.RELEASE/spring-cloud-sleuth-zipkin-1.3.4.RELEASE-sources.jar!/org/springframework/cloud/sleuth/zipkin2/ZipkinProperties.java</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-sleuth-core/1.3.4.RELEASE/spring-cloud-sleuth-core-1.3.4.RELEASE.jar!/org/springframework/cloud/sleuth/sampler/SamplerProperties.class</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1393,371 +1235,48 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.10.RELEASE/spring-context-4.3.10.RELEASE-sources.jar!/org/springframework/context/SmartLifecycle.java">
+    <entry file="file://$PROJECT_DIR$/eureka/src/main/resources/application-e1.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="60" column="42" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="42" />
+        <state relative-caret-position="325">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-server/1.4.5.RELEASE/spring-cloud-netflix-eureka-server-1.4.5.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/server/EurekaServerBootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="107" column="61" lean-forward="true" selection-start-line="107" selection-start-column="61" selection-end-line="107" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-server/1.4.5.RELEASE/spring-cloud-netflix-eureka-server-1.4.5.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/server/EurekaServerInitializerConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="70" column="51" lean-forward="true" selection-start-line="70" selection-start-column="51" selection-end-line="70" selection-end-column="51" />
-          <folding>
-            <element signature="e#2112#2698#0" expanded="true" />
-            <element signature="e#2697#2698#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/src/main/java/go/com/Eureka_A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-user/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.5.RELEASE/spring-cloud-netflix-core-1.4.5.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/web/ZuulController.java">
+    <entry file="file://$PROJECT_DIR$/sleuth-zipkin-server/src/main/java/go/com/ZipkinServerStarter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
-          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8.0_121/src.zip!/java/util/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="296" column="12" selection-start-line="296" selection-start-column="12" selection-end-line="296" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.6.RELEASE/spring-boot-1.5.6.RELEASE-sources.jar!/org/springframework/boot/web/servlet/ServletRegistrationBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="82" column="10" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
-          <folding>
-            <element signature="e#2257#2265#0" expanded="true" />
-            <element signature="e#2788#2789#0" expanded="true" />
-            <element signature="e#2827#2828#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.5.RELEASE/spring-cloud-netflix-core-1.4.5.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/ZuulServerAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="129" column="82" lean-forward="true" selection-start-line="129" selection-start-column="82" selection-end-line="129" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4919#4920#0" expanded="true" />
-            <element signature="e#4953#4954#0" expanded="true" />
-            <element signature="e#5268#5269#0" expanded="true" />
-            <element signature="e#5307#5308#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1-sources.jar!/com/netflix/zuul/http/ZuulServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="87" column="17" lean-forward="true" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.5.RELEASE/spring-cloud-netflix-core-1.4.5.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/EnableZuulProxy.java">
+    <entry file="file://$PROJECT_DIR$/sleuth-zipkin-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.5.RELEASE/spring-cloud-netflix-core-1.4.5.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/ZuulProxyMarkerConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-          <folding>
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1057#1058#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.5.RELEASE/spring-cloud-netflix-core-1.4.5.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/pre/PreDecorationFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="871">
-          <caret line="123" column="89" selection-start-line="123" selection-start-column="89" selection-end-line="123" selection-end-column="89" />
-          <folding>
-            <element signature="e#4649#4650#0" expanded="true" />
-            <element signature="e#4690#4691#0" expanded="true" />
-            <element signature="e#4732#4733#0" expanded="true" />
-            <element signature="e#4754#4755#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="910">
-          <caret line="70" column="46" selection-start-line="70" selection-start-column="46" selection-end-line="70" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/AppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer-order/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/java/go/com/ConfigStarter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="9" column="57" lean-forward="true" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+        <state relative-caret-position="13">
+          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer-order/src/main/java/go/com/controller_feign/OrderControllerFeign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/MyRouteZuulFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="50" column="7" lean-forward="true" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
-          <folding>
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apigateway-zuul-bus-test/src/main/java/go/com/MyPreZuulFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="108" column="37" selection-start-line="108" selection-start-column="37" selection-end-line="108" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apigateway-zuul-bus-test/src/main/java/go/com/MyRouteZuulFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apigateway-zuul-bus-test/src/main/java/go/com/SecondZuulFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE-sources.jar!/org/springframework/http/HttpHeaders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.5.RELEASE/spring-cloud-netflix-core-1.4.5.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/route/FallbackProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.5.RELEASE/spring-cloud-netflix-core-1.4.5.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/route/ZuulFallbackProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8.0_121/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="933" column="13" selection-start-line="933" selection-start-column="13" selection-end-line="933" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1-sources.jar!/com/netflix/zuul/context/RequestContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-156">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#9656#9657#0" expanded="true" />
-            <element signature="e#9715#9716#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/controller/TestConfigController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="22" column="82" lean-forward="true" selection-start-line="22" selection-start-column="82" selection-end-line="22" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apigateway-zuul/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apigateway-zuul/src/main/java/weblimit/TestRateLimit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE-sources.jar!/org/springframework/http/HttpStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.5.RELEASE/spring-cloud-netflix-core-1.4.5.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/ZuulProxyAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="110" column="54" selection-start-line="110" selection-start-column="54" selection-end-line="110" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1-sources.jar!/com/netflix/zuul/ZuulFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/SecondZuulFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/TestComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/ThirdZuulFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-          <folding>
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/MyPreZuulFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="42" column="49" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0-sources.jar!/com/google/common/util/concurrent/RateLimiter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="114" column="28" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
-          <folding>
-            <element signature="e#14599#14600#0" expanded="true" />
-            <element signature="e#14646#14647#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="130">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/MyFallbackProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="51" column="39" lean-forward="true" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+        <state relative-caret-position="152">
+          <caret line="90" column="13" lean-forward="true" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#3370#3371#0" expanded="true" />
+            <element signature="e#3397#3398#0" expanded="true" />
+            <element signature="e#3463#3464#0" expanded="true" />
+            <element signature="e#3490#3491#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.5.RELEASE/spring-cloud-netflix-core-1.4.5.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/support/FilterConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="70" column="31" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1768,64 +1287,360 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/provider-user/src/main/java/go/com/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/zipkin-client/src/main/java/go/com/ZipKinClinetStarter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-52">
-          <caret line="36" column="23" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="23" />
+        <state relative-caret-position="143">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apigateway-zuul/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/zipkin-client/src/main/java/go/com/controller/TestUController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        <state relative-caret-position="143">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/jdk1.8.0_121/src.zip!/java/util/stream/Stream.java">
+    <entry file="file://$PROJECT_DIR$/zipkin-client/src/main/java/go/com/feign/UserFeignClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1391">
-          <caret line="153" column="17" selection-start-line="153" selection-start-column="17" selection-end-line="153" selection-end-column="17" />
+        <state relative-caret-position="141">
+          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/jdk1.8.0_121/src.zip!/java/util/Collection.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.6.RELEASE/spring-boot-1.5.6.RELEASE-sources.jar!/org/springframework/boot/logging/LoggingApplicationListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="579" column="16" selection-start-line="579" selection-start-column="16" selection-end-line="579" selection-end-column="16" />
-          <folding>
-            <element signature="e#26957#26958#0" expanded="true" />
-            <element signature="e#27022#27023#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="144">
+          <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/ZuulStarter.java">
+    <entry file="file://$PROJECT_DIR$/zipkin-client/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="59" column="20" lean-forward="true" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="12" column="63" lean-forward="true" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/ThirdZuulFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="23" column="63" lean-forward="true" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/MyRouteZuulFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apigateway-zuul-bus-test/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-sleuth-core/1.3.4.RELEASE/spring-cloud-sleuth-core-1.3.4.RELEASE.jar!/org/springframework/cloud/sleuth/sampler/SamplerProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-order/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="62" column="55" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.6.RELEASE/spring-boot-1.5.6.RELEASE-sources.jar!/org/springframework/boot/context/ContextIdApplicationContextInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-sleuth-zipkin/1.3.4.RELEASE/spring-cloud-sleuth-zipkin-1.3.4.RELEASE-sources.jar!/org/springframework/cloud/sleuth/zipkin2/ZipkinProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2567#2568#0" expanded="true" />
+            <element signature="e#2596#2597#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apigateway-zuul/src/main/java/weblimit/TestRateLimit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/sun/jersey/contribs/jersey-apache-client4/1.19.1/jersey-apache-client4-1.19.1-sources.jar!/com/sun/jersey/client/apache4/ApacheHttpClient4Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="186" selection-start-line="186" selection-end-line="186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-sleuth-core/1.3.4.RELEASE/spring-cloud-sleuth-core-1.3.4.RELEASE-sources.jar!/org/springframework/cloud/sleuth/sampler/SamplerProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+          <folding>
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apigateway-zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="88" column="20" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apigateway-zuul/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="6" column="61" lean-forward="true" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
+        <state relative-caret-position="247">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/MyPreZuulFilterRateLimit.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-client-02/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="76" column="29" lean-forward="true" selection-start-line="76" selection-start-column="29" selection-end-line="76" selection-end-column="29" />
+        <state relative-caret-position="507">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-client-02/src/main/java/go/com/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1188#1189#0" expanded="true" />
-            <element signature="e#1255#1256#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin-client-02/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apigateway-zuul/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/ZuulStarter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apigateway-zuul/src/main/java/go/com/controller/TestConfigController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MODULES/mdl-consumer-order">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-consumer-order</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">mdl-consumer-order</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-148.0" y="102.5" />
+          <SelectedNodes />
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka/src/main/java/go/com/Eureka_A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-order/src/main/java/go/com/ConsumerOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-order/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/1.3.4.RELEASE/spring-cloud-commons-1.3.4.RELEASE-sources.jar!/org/springframework/cloud/commons/util/InetUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="204" column="23" selection-start-line="204" selection-start-column="23" selection-end-line="204" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.4.5.RELEASE/spring-cloud-netflix-eureka-client-1.4.5.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/CloudEurekaInstanceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.10.RELEASE/spring-context-4.3.10.RELEASE-sources.jar!/org/springframework/context/EnvironmentAware.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/java/go/com/ConfigStarter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.4.5.RELEASE/spring-cloud-netflix-eureka-client-1.4.5.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/EurekaInstanceConfigBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="308" column="45" selection-start-line="308" selection-start-column="36" selection-end-line="308" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#12694#12695#0" expanded="true" />
+            <element signature="e#12723#12724#0" expanded="true" />
+            <element signature="e#16671#16672#0" expanded="true" />
+            <element signature="e#16700#16701#0" expanded="true" />
+            <element signature="e#16760#16761#0" expanded="true" />
+            <element signature="e#16805#16806#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-user/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-user/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="10" column="91" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-order/src/main/java/go/com/feign/client/UserClientFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-order/src/main/java/go/com/feign/client/UserClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-user/src/main/java/go/com/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="75" column="50" selection-start-line="75" selection-start-column="50" selection-end-line="75" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer-order/src/main/java/go/com/controller_feign/OrderControllerFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
         </state>
       </provider>
     </entry>

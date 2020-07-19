@@ -33,7 +33,7 @@
         <module>spring-boot-rabbit-topic-provider</module>
         <module>spring-boot-rabbit-fanout-consumer</module>
         <module>spring-boot-rabbit-fanout-provider</module>
-
+        <module>zipkin-client-02</module>
 
 
         <!-- <module>config-client</module><module>test-spring</module>-->

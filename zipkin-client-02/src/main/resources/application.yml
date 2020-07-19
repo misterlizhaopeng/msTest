@@ -1,0 +1,10 @@
+server:
+  port: 1001
+spring:
+  application:
+    name: zipkin-client02
+  zipkin:
+    base-url: http://192.168.1.100:9909
+  sleuth:
+    sampler:
+      percentage: 1.0

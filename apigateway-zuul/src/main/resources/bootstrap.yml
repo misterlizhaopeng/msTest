@@ -8,6 +8,7 @@ spring:
       profile: dev   # 请求的配置信息在远程gitee上文件apigateway-zuul.yml 下spring.profiles=dev 的部分的信息；
       label: master  # 远程github上的分支名称，现在表示主分支
       uri: http://192.168.1.100:5566/
+      #uri: http://192.168.25.140:5566/
   rabbitmq:
     host: 192.168.25.140
     port: 5672

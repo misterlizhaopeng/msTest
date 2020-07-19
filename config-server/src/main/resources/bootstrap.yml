@@ -4,5 +4,7 @@ spring:
   rabbitmq:  #spring cloud bus消息总线实现一次刷新，多处服务实例配置同步信息
     username: admin
     password: admin
+#    username: lisi #admin
+#    password: lisi #admin
     host: 192.168.25.140
     port: 5672

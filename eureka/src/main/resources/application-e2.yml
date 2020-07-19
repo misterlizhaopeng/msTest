@@ -8,6 +8,7 @@ eureka:
       #      defaultZone: http://locahost:7001/eureka
       #      defaultZone: http://user:123@localhost:7001/eureka
       defaultZone: http://user:123@192.168.1.100:7001/eureka,http://user:123@192.168.1.100:7003/eureka
+      #defaultZone: http://user:123@192.168.25.140:7001/eureka,http://user:123@192.168.25.141:7003/eureka #docker
   instance:
     hostname: eureka-2
   server:

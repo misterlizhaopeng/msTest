@@ -16,6 +16,10 @@ eureka:
   client:
     service-url:
       defaultZone: http://user:123@192.168.1.100:7001/eureka,http://user:123@192.168.1.100:7002/eureka,http://user:123@192.168.1.100:7003/eureka
+      #defaultZone: http://user:123@192.168.25.140:7001/eureka,http://user:123@192.168.25.141:7002/eureka,http://user:123@192.168.25.141:7003/eureka  #docker
+  instance:
+    prefer-ip-address: true
+    ip-address: 192.168.1.100
 management:
   security:
     enabled: false  # 忽略权限拦截

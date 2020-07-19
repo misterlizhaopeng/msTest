@@ -9,6 +9,7 @@ eureka:
       #      defaultZone: http://user:123@localhost:7001/eureka
       # defaultZone: http://user:123@eureka-2:7002/eureka,http://user:123@eureka-3:7003/eureka
       defaultZone: http://user:123@192.168.1.100:7002/eureka,http://user:123@192.168.1.100:7003/eureka  # http:.../eureka 最后的eureka是给客户端client端看的，浏览器测试的时候不需要
+    #defaultZone: http://user:123@192.168.25.141:7002/eureka,http://user:123@192.168.25.141:7003/eureka  #docker
       # 为了能让eureka-server 接受到服务变更信息后，更快速地把服务列表的信息进行更改同步(多台发现服务的服务器之间会复制服务列表，
       # 进行更新)
     instance-info-replication-interval-seconds: 10

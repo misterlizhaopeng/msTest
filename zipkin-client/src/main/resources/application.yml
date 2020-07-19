@@ -4,7 +4,7 @@ spring:
   application:
     name: zipkin-client
   zipkin:
-    base-url: http://192.168.1.102:9909
+    base-url: http://192.168.1.100:9909
   sleuth:
     sampler:
       percentage: 1.0
@@ -27,7 +27,7 @@ hystrix:
 eureka:
   client:
     service-url:
-      defaultZone: http://user:123@192.168.1.102:7001/eureka,http://user:123@192.168.1.102:7002/eureka,http://user:123@192.168.1.102:7003/eureka
+      defaultZone: http://user:123@192.168.1.100:7001/eureka,http://user:123@192.168.1.100:7002/eureka,http://user:123@192.168.1.100:7003/eureka
   instance:
     prefer-ip-address: true
     metadata-map:

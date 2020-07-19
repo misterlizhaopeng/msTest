@@ -33,6 +33,7 @@
         <module name="springbootrabbit" />
         <module name="turbine8930" />
         <module name="zipkinclient" />
+        <module name="zipkinclient02" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -54,6 +54,12 @@ public class UserController {
 //        int i=0;
 //        i=100/i;
         //int i=1/0;
+
+
+        if (id.equals("4")) {
+            int i = 1 / 0;
+        }
+
         return new User(Integer.parseInt(id), "来自pro的1："+port);
 //        return new User(Integer.parseInt(id));
     }
